@@ -49,7 +49,7 @@ value	terms	exclude_term	term_names	exclude_term_name
 300	dose			
 3000	dose			
 30mM	dose			
-37	temperature			
+37	FYECO:0000004		high temperature	
 3AT	FYECO:0000251		+ amitrole	
 3mM	dose			
 3percent	dose			

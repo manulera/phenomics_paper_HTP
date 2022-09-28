@@ -6,4 +6,14 @@
 
   * id: FYECO:0000252 name: + glycerol
 * LiCL is the same as id: FYECO:0000093 name: + Li ions ?
-* Canavanin A? No occurrence of this aminoacid
+* Canavanin A? The "A" I cannot find
+* Glucose levels in YES and EMM
+* EMM_Gly3 -> Does it have glucose at all?
+* What to do with the temperature?
+* sensitive to methyl methanesulfonate in glycerol carbon source? What is the control here?
+* Controls / phenotypes here:
+  * 0.1% glucose in media + grown for 7d + 1mM cadmium chloride
+  * 0.5% glucose in media + grown for 7d 
+  * 1% glucose in media + grown for 7d 
+  * Grown for 7 days
+  * I guess children of FYPO:0000245 (loss of viability in stationary phase) and FYPO:0001309 (increased viability in stationary phase)

@@ -39,6 +39,11 @@ for condition in data['Condition_name_long']:
 
     mapping_condition_dict[condition] =  [term for term in terms2include if term not in terms2remove]
 
+with open('mapping_conditions1_full.tsv','w') as out:
+    for condition in data['Condition_name_long']:
+        out.write(f'{condition}\t{",".join(mapping_condition_dict[condition])}\n')
+
+
 # %% Double check that mappings are correct by printing markdown file
 
 ontology = Ontology('data/fyeco.obo')

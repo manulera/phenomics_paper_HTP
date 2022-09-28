@@ -10,3 +10,4 @@ curl -k https://cdn.elifesciences.org/articles/76000/elife-76000-supp6-v2.xlsx -
 
 # Other
 curl -k https://raw.githubusercontent.com/pombase/fypo/master/fyeco.obo --output data/fyeco.obo
+curl -L https://github.com/pombase/fypo/releases/download/v2022-09-07/fypo-base.obo --output data/fypo-base.obo

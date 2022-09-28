@@ -1,0 +1,48 @@
+value	terms	exclude_term	term_names	exclude_term_name
+EMM_NH4Cl	FYECO:0000126		glucose MM	
+EMM_Glu	FYECO:0000263	FYECO:0000126	glucose MM, glutamate nitrogen source	glucose MM
+EMM_Arg	FYECO:0000331	FYECO:0000126	glucose MM, arginine nitrogen source	glucose MM
+EMM_Cyst	FYECO:0000416	FYECO:0000126	glucose MM, cysteine nitrogen source	glucose MM
+EMM_Iso	FYECO:0000278	FYECO:0000126	glucose MM, isoleucine nitrogen source	glucose MM
+EMM_Met	FYECO:0000417	FYECO:0000126	glucose MM, methionine nitrogen source	glucose MM
+EMM_Phe	FYECO:0000296	FYECO:0000126	glucose MM, phenylalanine nitrogen source	glucose MM
+EMM_Pro	FYECO:0000246	FYECO:0000126	glucose MM, proline nitrogen source	glucose MM
+EMM_Gluc0.5	skip			
+EMM_Gluc2	skip			
+EMM_Gluc3	skip			
+EMM_Gly3	FYECO:0000072	FYECO:0000126	glycerol MM with trace glucose	glucose MM
+EMM_Gal2	FYECO:0000289	FYECO:0000126	galactose MM	glucose MM
+Temp25C	temperature			
+Temp32C	temperature			
+Temp37C	FYECO:0000004		high temperature	
+H2O2_0.5mM	FYECO:0000078		+ H2O2	
+H2O2_1mM	FYECO:0000078		+ H2O2	
+H2O2_3mM	FYECO:0000078		+ H2O2	
+TBH0.2mM	FYECO:0000304		+ TBHP	
+TBH1mM	FYECO:0000304		+ TBHP	
+Diam2mM	FYECO:0000364		+ diamide	
+Bleo20ug	FYECO:0000277		+ bleomycin	
+HU10mM	FYECO:0000170		+ HU	
+HU20mM	FYECO:0000170		+ HU	
+HU5mM	FYECO:0000170		+ HU	
+MMS0.005	FYECO:0000211		+ MMS	
+MMS0.0075	FYECO:0000211		+ MMS	
+KCl1M	FYECO:0000207		+ KCl	
+Sorb1.2M	FYECO:0000025		+ sorbitol	
+Ant0.1ng	FYECO:0000143		+ antimycin A	
+Ant1ng	FYECO:0000143		+ antimycin A	
+CoCl0.25mM	FYECO:0000311		+ CoCl2	
+EGTA10mM	FYECO:0000411		+ egtazic acid	
+SDS0.001	FYECO:0000167		+ SDS	
+SDS0.005	FYECO:0000167		+ SDS	
+Bref60uM	FYECO:0000319		+ BFA	
+TSA500nM	FYECO:0000268		+ trichostatin A	
+VPA3mM	FYECO:0000413		+ valproic acid	
+VPA5mM	FYECO:0000413		+ valproic acid	
+3AT10mM	FYECO:0000251		+ amitrole	
+3AT20mM	FYECO:0000251		+ amitrole	
+Can60ug	FYECO:0000408		+ canavanin	
+Caff10mM	FYECO:0000069		+ caffeine	
+Rap100ng	FYECO:0000242		+ rapamycin	
+Rap1ug	FYECO:0000242		+ rapamycin	
+Torin5uM	FYECO:0000390		+ torin1	
