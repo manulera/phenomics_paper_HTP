@@ -1,0 +1,142 @@
+value	terms	exclude_term	term_names	exclude_term_name
+0.001percent	dose			
+0.004percent	dose			
+0.005percent	dose			
+0.0075percent	dose			
+0.01percent	dose			
+0.02percent	dose			
+0.075percent	dose			
+0.1	dose			
+0.25mM	dose			
+0.3	dose			
+0.5	dose			
+0.5M	dose			
+0.5mM	dose			
+0.6	dose			
+1	dose			
+1.5mM	dose			
+10	dose			
+100	dose			
+1000	dose			
+1000nM	dose			
+100mg	dose			
+100ul	dose			
+10mM	dose			
+10min	dose			
+10percent	dose			
+120	dose			
+12ul	dose			
+15	dose			
+150mM	dose			
+15mM	dose			
+1M	dose			
+1mM	dose			
+1week	dose			
+2	dose			
+2.5	dose			
+200	dose			
+2000	dose			
+200mg	dose			
+200ul	dose			
+20min	dose			
+20ul	dose			
+25C	temperature			
+2X	dose			
+2mM	dose			
+2percent	dose			
+3	dose			
+3.5mM	dose			
+300	dose			
+3000	dose			
+30mM	dose			
+37	temperature			
+3AT	FYECO:0000251		+ amitrole	
+3mM	dose			
+3percent	dose			
+4	dose			
+400	dose			
+4000	dose			
+40ul	dose			
+45mM	dose			
+4mM	dose			
+4ml	dose			
+4ul	dose			
+5	dose			
+50	dose			
+500nM	dose			
+500ul	dose			
+50ul	dose			
+5mM	dose			
+5min	dose			
+5percent	dose			
+6	dose			
+60	dose			
+600	dose			
+6000	dose			
+60ul	dose			
+6mM	dose			
+75ugml	dose			
+80ul	dose			
+8mM	dose			
+8ul	dose			
+9000	dose			
+Act	FYECO:0000143		+ antimycin A	
+Arginine	FYECO:0000331	FYECO:0000126	glucose MM, arginine nitrogen source	glucose MM
+Benzamidine	FYECO:0000407		+ benzamidine	
+Bleo	FYECO:0000277		+ bleomycin	
+Bortezomib	FYECO:0000322		+ bortezomib	
+BrefeldinA	FYECO:0000319		+ BFA	
+Caffeine	FYECO:0000069		+ caffeine	
+Caffeine10	FYECO:0000069		+ caffeine	
+Calcofluor	FYECO:0000113		+ Calcofluor White	
+CanavaninA	FYECO:0000408		+ canavanin	
+CanavanineA	FYECO:0000408		+ canavanin	
+CdCl2	FYECO:0000175		+ CdCl2	
+CoCl	FYECO:0000311		+ CoCl2	
+Cycloheximide	FYECO:0000257		+ cycloheximide	
+Cys	FYECO:0000179		+ cysteine	
+DIP	FYECO:0000409		+ 2,2'-dipyridyl	
+DMSO	FYECO:0000371		+ DMSO	
+Diamide	FYECO:0000364		+ diamide	
+Dihydrocumarin	FYECO:0000410		+ 3,4-dihydrocoumarin	
+EDTA	FYECO:0000176		+ EDTA	
+EGTA	FYECO:0000411		+ egtazic acid	
+EMM	FYECO:0000126		glucose MM	
+EtOH	FYECO:0000212		+ ethanol	
+Formamide	FYECO:0000329		+ formamide	
+Gal	FYECO:0000358		YES + galactose	
+Glutamine	FYECO:0000403	FYECO:0000126	glucose MM, glutamine nitrogen source	glucose MM
+Glycerol	FYECO:0000138	FYECO:0000137	glycerol YE	YES
+H2O2	FYECO:0000078		+ H2O2	
+HU	FYECO:0000170		+ HU	
+KCl	FYECO:0000207		+ KCl	
+LiCl	FYECO:0000093		+ Li ions	
+MMS	FYECO:0000211		+ MMS	
+Met	FYECO:0000178		+ met	
+NAOrthovanadate	FYECO:0000026		+ vanadate	
+NaCl	FYECO:0000166		+ NaCl	
+NaOrthovanadate	FYECO:0000026		+ vanadate	
+Rapa	FYECO:0000242		+ rapamycin	
+SDS	FYECO:0000167		+ SDS	
+Sorb1.2	FYECO:0000025		+ sorbitol	
+TBH	FYECO:0000304		+ TBHP	
+TSA	FYECO:0000268		+ trichostatin A	
+Torin5	FYECO:0000390		+ torin1	
+Tunicamycin	FYECO:0000412		+ tunicamycin	
+Tunicamycine	FYECO:0000412		+ tunicamycin	
+UV	FYECO:0000315		UV	
+VPA	FYECO:0000413		+ valproic acid	
+Xylose	FYECO:0000414	FYECO:0000137	xylose YE	YES
+Xylose2Gluc0.1	FYECO:0000414	FYECO:0000137	xylose YE	YES
+YES	FYECO:0000137		YES	
+YESphlox	FYECO:0000334		+ phloxine B	
+calcofluor	FYECO:0000113		+ Calcofluor White	
+calcofluor10	FYECO:0000113		+ Calcofluor White	
+formamide	FYECO:0000329		+ formamide	
+glucose	skip			
+percent	dose			
+phlox	FYECO:0000334		+ phloxine B	
+phloxine	FYECO:0000334		+ phloxine B	
+proline	FYECO:0000246	FYECO:0000126	glucose MM, proline nitrogen source	glucose MM
+tea	FYECO:0000415		+ tea tree oil	
+tree	FYECO:0000415		+ tea tree oil	

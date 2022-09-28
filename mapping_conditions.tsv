@@ -1,4 +1,4 @@
-value	term	exclude_term
+value	terms	exclude_term
 0.001percent	dose
 0.004percent	dose
 0.005percent	dose
@@ -49,7 +49,7 @@ value	term	exclude_term
 300	dose
 3000	dose
 30mM	dose
-37	temperature
+37	FYECO:0000004
 3AT	FYECO:0000251
 3mM	dose
 3percent	dose
@@ -85,7 +85,7 @@ Arginine	FYECO:0000331	FYECO:0000126
 Benzamidine	FYECO:0000407
 Bleo	FYECO:0000277
 Bortezomib	FYECO:0000322
-BrefeldinA	FYECO:0000109
+BrefeldinA	FYECO:0000319
 Caffeine	FYECO:0000069
 Caffeine10	FYECO:0000069
 Calcofluor	FYECO:0000113
@@ -113,12 +113,12 @@ KCl	FYECO:0000207
 LiCl	FYECO:0000093
 MMS	FYECO:0000211
 Met	FYECO:0000178
-NAOrthovanadate	FYECO:0000109
+NAOrthovanadate	FYECO:0000026
 NaCl	FYECO:0000166
-NaOrthovanadate	FYECO:0000109
+NaOrthovanadate	FYECO:0000026
 Rapa	FYECO:0000242
 SDS	FYECO:0000167
-Sorb1.2	FYECO:0000171
+Sorb1.2	FYECO:0000025
 TBH	FYECO:0000304
 TSA	FYECO:0000268
 Torin5	FYECO:0000390
@@ -140,4 +140,3 @@ phloxine	FYECO:0000334
 proline	FYECO:0000246	FYECO:0000126
 tea	FYECO:0000415
 tree	FYECO:0000415
-

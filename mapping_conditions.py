@@ -59,3 +59,19 @@ with open('mapping_conditions_check.md','w') as out:
             out.write(f'    * name: {term.name}\n')
             out.write(f'    * def: {term.definition.lstrip()}\n')
 
+# %% Print additional tsv file to verify right FYECO terms
+
+mappings = pandas.read_csv('mapping_conditions.tsv',delimiter='\t', na_filter=False)
+
+term_names = list()
+for term_ids in mappings['terms']:
+    term_names.append('|'.join([ontology[term_id].name for term_id in term_ids.split(',') if term_id not in ['skip', 'dose', 'temperature']]))
+
+exclude_names = list()
+for exclude_id in mappings['exclude_term']:
+    exclude_names.append(ontology[exclude_id].name if exclude_id else None)
+
+mappings['term_names'] = term_names
+mappings['exclude_term_name'] = exclude_names
+
+mappings.to_csv('mapping_conditions_long.tsv', sep='\t', index=False)
