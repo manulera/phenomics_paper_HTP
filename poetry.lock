@@ -40,6 +40,14 @@ python-versions = "*"
 pycparser = "*"
 
 [[package]]
+name = "chardet"
+version = "4.0.0"
+description = "Universal encoding detector for Python 2 and 3"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
 name = "colorama"
 version = "0.4.5"
 description = "Cross-platform colored terminal text."
@@ -89,6 +97,14 @@ python-versions = "*"
 
 [package.extras]
 tests = ["rich", "littleutils", "pytest", "asttokens"]
+
+[[package]]
+name = "fastobo"
+version = "0.12.1"
+description = "Faultless AST for Open Biomedical Ontologies in Python."
+category = "main"
+optional = false
+python-versions = ">=3.7"
 
 [[package]]
 name = "ipykernel"
@@ -220,6 +236,21 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "networkx"
+version = "2.8.6"
+description = "Python package for creating and manipulating graphs and networks"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+default = ["numpy (>=1.19)", "scipy (>=1.8)", "matplotlib (>=3.4)", "pandas (>=1.3)"]
+developer = ["pre-commit (>=2.20)", "mypy (>=0.961)"]
+doc = ["sphinx (>=5)", "pydata-sphinx-theme (>=0.9)", "sphinx-gallery (>=0.10)", "numpydoc (>=1.4)", "pillow (>=9.1)", "nb2plots (>=0.6)", "texext (>=0.6.6)"]
+extra = ["lxml (>=4.6)", "pygraphviz (>=1.9)", "pydot (>=1.4.2)", "sympy (>=1.10)"]
+test = ["pytest (>=7.1)", "pytest-cov (>=3.0)", "codecov (>=2.1)"]
+
+[[package]]
 name = "numpy"
 version = "1.23.3"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -309,6 +340,20 @@ python-versions = ">=3.6.2"
 
 [package.dependencies]
 wcwidth = "*"
+
+[[package]]
+name = "pronto"
+version = "2.5.0"
+description = "Python frontend to ontologies."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+chardet = ">=3.0,<5.0"
+fastobo = ">=0.12.1,<0.13.0"
+networkx = ">=2.3,<3.0"
+python-dateutil = ">=2.8,<3.0"
 
 [[package]]
 name = "psutil"
@@ -471,7 +516,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "a7d49c3e32902994e9a056c989288d45ad7f64b99544667d965b6a62ed8f5732"
+content-hash = "bcbd514d210da13646fa1d21b902caf24f29276bcf02263203d28336f68ac1a3"
 
 [metadata.files]
 appnope = [
@@ -484,6 +529,7 @@ backcall = [
     {file = "backcall-0.2.0.tar.gz", hash = "sha256:5cbdbf27be5e7cfadb448baf0aa95508f91f2bbc6c6437cd9cd06e2a4c215e1e"},
 ]
 cffi = []
+chardet = []
 colorama = []
 debugpy = []
 decorator = [
@@ -496,6 +542,7 @@ entrypoints = [
 ]
 et-xmlfile = []
 executing = []
+fastobo = []
 ipykernel = []
 ipython = []
 jedi = [
@@ -509,6 +556,7 @@ nest-asyncio = [
     {file = "nest_asyncio-1.5.5-py3-none-any.whl", hash = "sha256:b98e3ec1b246135e4642eceffa5a6c23a3ab12c82ff816a92c612d68205813b2"},
     {file = "nest_asyncio-1.5.5.tar.gz", hash = "sha256:e442291cd942698be619823a17a86a5759eabe1f8613084790de189fe9e16d65"},
 ]
+networkx = []
 numpy = []
 openpyxl = []
 packaging = [
@@ -529,6 +577,7 @@ pickleshare = [
     {file = "pickleshare-0.7.5.tar.gz", hash = "sha256:87683d47965c1da65cdacaf31c8441d12b8044cdec9aca500cd78fc2c683afca"},
 ]
 prompt-toolkit = []
+pronto = []
 psutil = []
 ptyprocess = [
     {file = "ptyprocess-0.7.0-py2.py3-none-any.whl", hash = "sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35"},

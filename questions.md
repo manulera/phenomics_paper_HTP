@@ -6,4 +6,4 @@
 
   * id: FYECO:0000252 name: + glycerol
 * LiCL is the same as id: FYECO:0000093 name: + Li ions ?
-* 
+* Canavanin A? No occurrence of this aminoacid
