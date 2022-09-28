@@ -11,7 +11,7 @@ import pandas
 # FYECO terms
 
 mapping_bits_dict = dict()
-with open('mapping_conditions.tsv') as ins:
+with open('mapping_conditions1.tsv') as ins:
     # Skip header
     ins.readline()
     for line in ins:
@@ -43,7 +43,7 @@ for condition in data['Condition_name_long']:
 
 ontology = Ontology('data/fyeco.obo')
 
-with open('mapping_conditions_check.md','w') as out:
+with open('mapping_conditions1_check.md','w') as out:
     for condition in data['Condition_name_long']:
         fyeco_terms = mapping_condition_dict[condition]
         out.write(f'* {condition}\n')
@@ -61,7 +61,7 @@ with open('mapping_conditions_check.md','w') as out:
 
 # %% Print additional tsv file to verify right FYECO terms
 
-mappings = pandas.read_csv('mapping_conditions.tsv',delimiter='\t', na_filter=False)
+mappings = pandas.read_csv('mapping_conditions1.tsv',delimiter='\t', na_filter=False)
 
 term_names = list()
 for term_ids in mappings['terms']:
@@ -74,4 +74,4 @@ for exclude_id in mappings['exclude_term']:
 mappings['term_names'] = term_names
 mappings['exclude_term_name'] = exclude_names
 
-mappings.to_csv('mapping_conditions_long.tsv', sep='\t', index=False)
+mappings.to_csv('mapping_conditions1_long.tsv', sep='\t', index=False)
