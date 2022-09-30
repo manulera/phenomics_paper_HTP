@@ -34,4 +34,5 @@ for condition, fypo_terms_string in zip(data['Condition_name_long'], data['pheno
 data['sensitive'] = sensitive_terms
 data['resistance'] = resistance_terms
 
-data[['Condition_name_long','sensitive', 'resistance']].to_csv('mapping_phenotypes.tsv',sep='\t',index=False)
+
+data[['Condition_name_long','Condition_short','sensitive', 'resistance']].to_csv('mapping_phenotypes1.tsv',sep='\t',index=False)
