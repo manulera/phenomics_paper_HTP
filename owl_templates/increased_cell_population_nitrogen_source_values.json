@@ -1,0 +1,7 @@
+{
+    "chebi_id_number": ["17561","17191", "16643", "17295", "17203", "16467"],
+    "chemical_name": ["cysteine", "isoleucine", "methionine", "phenylalnine", "proline", "arginine"],
+    "curator_id": "PomBase:mlr",
+    "fypo_id_number": ["0009024","0009025","0009026","0009027","0009028","0009029"],
+    "iso_time": "2023-02-17T15:43:28Z"
+}

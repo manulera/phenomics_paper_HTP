@@ -1,0 +1,13 @@
+# Class: <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> (resistance to $chemical_name$)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "An increased chemical resistance phenotype observed in the vegetative growth phase of the life cycle in which cells grow in the presence of a higher concentration of $chemical_name$ than normal."^^xsd:string)
+AnnotationAssertion(oboInOwl:created_by <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "$curator_id$"^^xsd:string)
+AnnotationAssertion(oboInOwl:creation_date <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "$iso_time$"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistance to $chemical_name$ during vegetative growth"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistant to $chemical_name$"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "fission_yeast_phenotype"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistance to $chemical_name$ during mitotic cell cycle"^^xsd:string)
+AnnotationAssertion(oboInOwl:id <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "FYPO:$fypo_id_number$"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistance to $chemical_name$"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0072690>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> <http://purl.obolibrary.org/obo/CHEBI_$chebi_id_number$>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> <http://purl.obolibrary.org/obo/FYPO_0000126>)

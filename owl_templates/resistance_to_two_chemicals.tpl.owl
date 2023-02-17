@@ -1,0 +1,13 @@
+# Class: <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> (resistance to $chemical_names$)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "An increased chemical resistance phenotype observed in the vegetative growth phase of the life cycle in which cells grow in the presence of higher concentrations of $chemical_names$ than normal."^^xsd:string)
+AnnotationAssertion(oboInOwl:created_by <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "midori"^^xsd:string)
+AnnotationAssertion(oboInOwl:creation_date <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "$iso_time$"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistance to $chemical_names$ during vegetative growth"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistance to $chemical_names$ in combination"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) oboInOwl:hasExactSynonym <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistant to $chemical_names$"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "fission_yeast_phenotype"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "$curator_id$"^^xsd:string) oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistance to $chemical_names$ during mitotic cell cycle"^^xsd:string)
+AnnotationAssertion(oboInOwl:id <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "FYPO:$fypo_id_number$"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> "resistance to $chemical_names$"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/FYPO_$fypo_id_number$> <http://purl.obolibrary.org/obo/FYPO_0000126>)
