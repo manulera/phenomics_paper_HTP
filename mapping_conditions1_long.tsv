@@ -104,7 +104,7 @@ EGTA	FYECO:0000411		+ egtazic acid
 EMM	FYECO:0000126		glucose MM	
 EtOH	FYECO:0000212		+ ethanol	
 Formamide	FYECO:0000329		+ formamide	
-Gal	FYECO:0000358		YES + galactose	
+Gal	FYECO:0000358	FYECO:0000137	YES + galactose	YES
 Glutamine	FYECO:0000403	FYECO:0000126	glucose MM, glutamine nitrogen source	glucose MM
 Glycerol	FYECO:0000138	FYECO:0000137	glycerol YE	YES
 H2O2	FYECO:0000078		+ H2O2	
