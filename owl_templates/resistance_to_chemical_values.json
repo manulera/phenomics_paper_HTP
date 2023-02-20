@@ -1,8 +1,8 @@
 {
-    "chebi_id_number": ["40036","22907","52717","16151","4735","16397","41033","87192","30740","32588","83629","30351","30911"],
-    "chemical_name": ["amitrole","bleomycin","bortezomib","dihydrocoumarin","ethylenediaminetetraacetic acid","formamide","benzamidine","phloxine B","egtazic acid","potassium chloride","tea tree oil","2,2′-dipyridyl","sorbitol"],
+    "chebi_id_number": ["17561", "16643"],
+    "chemical_name": ["cysteine", "methionine"],
     "curator_id": "PomBase:mlr",
-    "fypo_id_number": ["0009030", "0009031", "0009032", "0009033", "0009034", "0009035", "0009036", "0009037", "0009038", "0009039", "0009040", "0009041", "0009042"],
+    "fypo_id_number": ["0009048", "0009049"],
     "iso_time": "2023-02-17T16:54:15Z"
 }
 

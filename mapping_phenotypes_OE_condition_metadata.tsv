@@ -1,0 +1,48 @@
+Condition Name	sensitive	resistance	sensitive_label	resistance_label
+EMM_NH4Cl	FYPO:0000249	FYPO:0009051	decreased cell population growth on ammonia nitrogen source	increased cell population growth on ammonium nitrogen source
+EMM_Glu	FYPO:0009053	FYPO:0009052	decreased cell population growth on glutamate nitrogen source	increased cell population growth on glutamate nitrogen source
+EMM_Arg	FYPO:0009009	FYPO:0009029	decreased cell population growth on arginine nitrogen source	increased cell population growth on arginine nitrogen source
+EMM_Cyst	FYPO:0009021	FYPO:0009024	decreased cell population growth on cysteine nitrogen source	increased cell population growth on cysteine nitrogen source
+EMM_Iso	FYPO:0009022	FYPO:0009025	decreased cell population growth on isoleucine nitrogen source	increased cell population growth on isoleucine nitrogen source
+EMM_Met	FYPO:0009023	FYPO:0009026	decreased cell population growth on methionine nitrogen source	increased cell population growth on methionine nitrogen source
+EMM_Phe	FYPO:0007726	FYPO:0009027	decreased cell population growth on phenylalanine nitrogen source	increased cell population growth on phenylalanine nitrogen source
+EMM_Pro	FYPO:0000250	FYPO:0009028	decreased cell population growth on proline nitrogen source	increased cell population growth on proline nitrogen source
+EMM_Gluc0.5	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth
+EMM_Gluc2	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth
+EMM_Gluc3	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth
+EMM_Gly3	FYPO:0000684	FYPO:0004167	decreased cell population growth on glycerol carbon source	increased cell population growth on glycerol carbon source
+EMM_Gal2	FYPO:0000251	FYPO:0005261	decreased cell population growth on galactose carbon source	increased cell population growth on galactose carbon source
+Temp25C	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth
+Temp32C	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth
+Temp37C	FYPO:0000082	FYPO:0005258	decreased cell population growth at high temperature	increased cell population growth at high temperature
+H2O2_0.5mM	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide
+H2O2_1mM	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide
+H2O2_3mM	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide
+TBH0.2mM	FYPO:0000797	FYPO:0003383	sensitive to tert-butyl hydroperoxide	resistance to tert-butyl hydroperoxide
+TBH1mM	FYPO:0000797	FYPO:0003383	sensitive to tert-butyl hydroperoxide	resistance to tert-butyl hydroperoxide
+Diam2mM	FYPO:0000799	FYPO:0002693	sensitive to diamide	resistance to diamide
+Bleo20ug	FYPO:0000095	FYPO:0009031	sensitive to bleomycin	resistance to bleomycin
+HU10mM	FYPO:0000088	FYPO:0002578	sensitive to hydroxyurea	resistance to hydroxyurea
+HU20mM	FYPO:0000088	FYPO:0002578	sensitive to hydroxyurea	resistance to hydroxyurea
+HU5mM	FYPO:0000088	FYPO:0002578	sensitive to hydroxyurea	resistance to hydroxyurea
+MMS0.005	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate
+MMS0.0075	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate
+KCl1M	FYPO:0001214	FYPO:0009039	sensitive to potassium chloride	resistance to potassium chloride
+Sorb1.2M	FYPO:0000112	FYPO:0009042	sensitive to sorbitol	resistance to sorbitol
+Ant0.1ng	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A
+Ant1ng	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A
+CoCl0.25mM	FYPO:0001245	FYPO:0002634	sensitive to cobalt	resistance to cobalt
+EGTA10mM	FYPO:0007931	FYPO:0009038	sensitive to egtazic acid	resistance to egtazic acid
+SDS0.001	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate
+SDS0.005	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate
+Bref60uM	FYPO:0001501	FYPO:0000067	sensitive to brefeldin A	resistance to brefeldin A
+TSA500nM	FYPO:0002546	FYPO:0000327	sensitive to trichostatin A	resistance to trichostatin A
+VPA3mM	FYPO:0000115	FYPO:0007808	sensitive to valproic acid	resistance to valproic acid
+VPA5mM	FYPO:0000115	FYPO:0007808	sensitive to valproic acid	resistance to valproic acid
+3AT10mM	FYPO:0001097	FYPO:0009030	sensitive to amitrole	resistance to amitrole
+3AT20mM	FYPO:0001097	FYPO:0009030	sensitive to amitrole	resistance to amitrole
+Can60ug	FYPO:0000099	FYPO:0001029	sensitive to canavanine	resistance to canavanine
+Caff10mM	FYPO:0000097	FYPO:0000073	sensitive to caffeine during vegetative growth	resistance to caffeine
+Rap100ng	FYPO:0000111	FYPO:0000077	sensitive to rapamycin	resistance to rapamycin
+Rap1ug	FYPO:0000111	FYPO:0000077	sensitive to rapamycin	resistance to rapamycin
+Torin5uM	FYPO:0002701	FYPO:0005193	sensitive to torin1	resistance to torin1

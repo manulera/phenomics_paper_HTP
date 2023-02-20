@@ -1,8 +1,8 @@
 {
-    "chebi_id_number": ["17561","17191", "16643"],
-    "chemical_name": ["cysteine", "isoleucine", "methionine"],
+    "chebi_id_number": ["14321"],
+    "chemical_name": ["glutamate"],
     "curator_id": "PomBase:mlr",
-    "fypo_id_number": ["0009021","0009022","0009023"],
+    "fypo_id_number": ["0009053"],
     "iso_time": "2023-02-17T15:43:28Z",
     "pmid_number": "34984977"
 }
