@@ -1,0 +1,19 @@
+Condition_name_long	chemicals_chebi	chemicals_amount	temperature
+YES_0.5M_KCl_SDS_0.01percent	CHEBI:32588|CHEBI:8984	0.5M|0.01%
+YES_150mM_NaCl_MMS_0.005percent	CHEBI:26710|CHEBI:25255	150mM|0.005%
+YES_1M_KCl_SDS_0.01percent	CHEBI:32588|CHEBI:8984	1M|0.01%
+YES_Calcofluor_4_KCl	CHEBI:50011|CHEBI:32588	400ug/mL|0.5M
+YES_calcofluor10_KCl	CHEBI:50011|CHEBI:32588	1mg/mL|0.5M
+YES_phlox_2X_phloxine_10mM_H2O2	CHEBI:87192|CHEBI:16240	2x|10mM
+YES_phlox_2X_phloxine_15mM_H2O2	CHEBI:87192|CHEBI:16240	2x|15mM
+YES_phlox_HU_8mM_MMS_0.075percent	CHEBI:44423|CHEBI:25255	8mM|0.075%
+YES_phlox_KCl_0.5M_SDS_0.004percent	CHEBI:32588|CHEBI:8984	0.5M|0.004%
+YES_phlox_glucose_0.1_percent_1week_CdCl2_1mM	CHEBI:17234|CHEBI:22978	0.1%|1mM
+YES_phlox_glucose_0.5_percent_1week	CHEBI:17234	0.5%
+YES_phlox_glucose_1_percent_1week	CHEBI:17234	1%
+YES_phlox_glucose_3_percent_1week	CHEBI:17234	3%
+YES_phlox_25C_glucose_0.1_percent	CHEBI:17234	0.1%	25
+YES_phlox_25C_glucose_0.5_percent	CHEBI:17234	0.5%	25
+YES_phlox_25C_glucose_1_percent	CHEBI:17234	1%	25
+YES_phlox_25C_glucose_3_percent	CHEBI:17234	3%	25
+YES_37			37

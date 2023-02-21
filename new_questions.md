@@ -1,0 +1,2 @@
+Normal temperature
+Glucose concentration

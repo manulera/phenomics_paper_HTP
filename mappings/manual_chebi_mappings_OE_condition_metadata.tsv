@@ -1,0 +1,7 @@
+Condition Name	chemicals_chebi	chemicals_amount	temperature
+EMM_Gluc0.5	CHEBI:17234	0.5%
+EMM_Gluc2	CHEBI:17234	2%
+EMM_Gluc3	CHEBI:17234	3%
+Temp25C			25
+Temp32C			32
+Temp37C			37

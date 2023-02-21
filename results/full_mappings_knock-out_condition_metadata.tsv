@@ -1,0 +1,150 @@
+Condition_name_long	Condition_short	sensitive	resistance	sensitive_label	resistance_label	fyeco_terms	chemicals_chebi	chemicals_amount	temperature
+EMM	EMM-Control	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126			32
+EMM_3AT_4	EMM-3AT4	FYPO:0001097	FYPO:0009030	sensitive to amitrole	resistance to amitrole	FYECO:0000126,FYECO:0000251	CHEBI:40036	4mM	32
+EMM_3AT_6	EMM-3AT6	FYPO:0001097	FYPO:0009030	sensitive to amitrole	resistance to amitrole	FYECO:0000126,FYECO:0000251	CHEBI:40036	6mM	32
+EMM_CanavanineA_60	EMM-Canav60	FYPO:0000099	FYPO:0001029	sensitive to canavanine	resistance to canavanine	FYECO:0000126,FYECO:0000408	CHEBI:609827	60ug/ml	32
+EMM_Cys	EMM-Cys	FYPO:0007922	FYPO:0009048	sensitive to cysteine	resistance to cysteine	FYECO:0000126,FYECO:0000179	CHEBI:17561	0.5g/l	32
+EMM_Met	EMM-Met	FYPO:0002705	FYPO:0009049	sensitive to methionine	resistance to methionine	FYECO:0000126,FYECO:0000178	CHEBI:16643	0.5g/l	32
+EMM__Bleo_200	EMM-Bleo200	FYPO:0000095	FYPO:0009031	sensitive to bleomycin	resistance to bleomycin	FYECO:0000126,FYECO:0000277	CHEBI:22907	200ug/ml	32
+EMM_phlox	EMMphlox-Control	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000126,FYECO:0000334			32
+EMM_phlox_CanavaninA_75ugml	EMMphlox-Cana75	FYPO:0000099	FYPO:0001029	sensitive to canavanine	resistance to canavanine	FYECO:0000126,FYECO:0000334,FYECO:0000408	CHEBI:609827	75ug/ml	32
+YES	YES-Control	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000137			32
+YES_0.5M_KCl_SDS_0.01percent	YES-KCl0.5SDS0.01	FYPO:0007924	FYPO:0009043	sensitive to potassium chloride and sodium dodecyl sulfate	resistance to potassium chloride and sodium dodecyl sulfate	FYECO:0000137,FYECO:0000207,FYECO:0000167	CHEBI:32588|CHEBI:8984	0.5M|0.01%	32
+YES_150mM_NaCl	YES-NaCl150	FYPO:0005889	FYPO:0005968	sensitive to sodium chloride	resistance to sodium chloride	FYECO:0000137,FYECO:0000166	CHEBI:26710	150mM	32
+YES_150mM_NaCl_MMS_0.005percent	YES-NaCl150MMS0.005	FYPO:0007925	FYPO:0009044	sensitive to sodium chloride and methyl methanesulfonate	resistance to sodium chloride and methyl methanesulfonate	FYECO:0000137,FYECO:0000166,FYECO:0000211	CHEBI:26710|CHEBI:25255	150mM|0.005%	32
+YES_1M_KCl_SDS_0.01percent	YES-KCl1SDS0.01	FYPO:0007924	FYPO:0009043	sensitive to potassium chloride and sodium dodecyl sulfate	resistance to potassium chloride and sodium dodecyl sulfate	FYECO:0000137,FYECO:0000207,FYECO:0000167	CHEBI:32588|CHEBI:8984	1M|0.01%	32
+YES_Bleo_200	YES-Bleo200	FYPO:0000095	FYPO:0009031	sensitive to bleomycin	resistance to bleomycin	FYECO:0000137,FYECO:0000277	CHEBI:22907	200ug/ml	32
+YES_Bleo_300	YES-Bleo300	FYPO:0000095	FYPO:0009031	sensitive to bleomycin	resistance to bleomycin	FYECO:0000137,FYECO:0000277	CHEBI:22907	300ug/ml	32
+YES_Bleo_600	YES-Bleo600	FYPO:0000095	FYPO:0009031	sensitive to bleomycin	resistance to bleomycin	FYECO:0000137,FYECO:0000277	CHEBI:22907	600ug/ml	32
+YES_Bortezomib_100ul	YES-Bortezomib100	FYPO:0001701	FYPO:0009032	sensitive to bortezomib	resistance to bortezomib	FYECO:0000137,FYECO:0000322	CHEBI:52717	100uM	32
+YES_Bortezomib_200ul	YES-Bortezomib200	FYPO:0001701	FYPO:0009032	sensitive to bortezomib	resistance to bortezomib	FYECO:0000137,FYECO:0000322	CHEBI:52717	200uM	32
+YES_BrefeldinA_60	YES-Bref60	FYPO:0001501	FYPO:0000067	sensitive to brefeldin A	resistance to brefeldin A	FYECO:0000137,FYECO:0000319	CHEBI:48080	60uM	32
+YES_Calcofluor_4_KCl	YES-Calco4KCl0.5	FYPO:0007926	FYPO:0009045	sensitive to calcofluor and potassium chloride	resistance to calcofluor and potassium chloride	FYECO:0000137,FYECO:0000113,FYECO:0000207	CHEBI:50011|CHEBI:32588	400ug/mL|0.5M	32
+YES_CanavanineA_120	YES-Cana120	FYPO:0000099	FYPO:0001029	sensitive to canavanine	resistance to canavanine	FYECO:0000137,FYECO:0000408	CHEBI:609827	120mg/ml	32
+YES_CanavanineA_60	YES-Cana60	FYPO:0000099	FYPO:0001029	sensitive to canavanine	resistance to canavanine	FYECO:0000137,FYECO:0000408	CHEBI:609827	60mg/ml	32
+YES_CoCl_0.25mM	YES-CoCl0.25	FYPO:0001245	FYPO:0002634	sensitive to cobalt	resistance to cobalt	FYECO:0000137,FYECO:0000311	CHEBI:48828	0.25mM	32
+YES_CoCl_5	YES-CoCl5	FYPO:0001245	FYPO:0002634	sensitive to cobalt	resistance to cobalt	FYECO:0000137,FYECO:0000311	CHEBI:48828	5nM	32
+YES_Cycloheximide_100mg	YES-Cycloh100	FYPO:0000104	FYPO:0000764	sensitive to cycloheximide	resistance to cycloheximide	FYECO:0000137,FYECO:0000257	CHEBI:27641	100ng/ml	32
+YES_Cycloheximide_200mg	YES-Cycloh200	FYPO:0000104	FYPO:0000764	sensitive to cycloheximide	resistance to cycloheximide	FYECO:0000137,FYECO:0000257	CHEBI:27641	200ng/ml	32
+YES_Cycloheximide_400	YES-Cycloh400	FYPO:0000104	FYPO:0000764	sensitive to cycloheximide	resistance to cycloheximide	FYECO:0000137,FYECO:0000257	CHEBI:27641	400ng/ml	32
+YES_Cycloheximide_600	YES-Cycloh600	FYPO:0000104	FYPO:0000764	sensitive to cycloheximide	resistance to cycloheximide	FYECO:0000137,FYECO:0000257	CHEBI:27641	600ng/ml	32
+YES_Dihydrocumarin_100ul	YES-Dhcumarin100	FYPO:0007927	FYPO:0009033	sensitive to dihydrocoumarin	resistance to dihydrocoumarin	FYECO:0000137,FYECO:0000410	CHEBI:16151	11.6ug/ml	32
+YES_Dihydrocumarin_200ul	YES-Dhcumarin200	FYPO:0007927	FYPO:0009033	sensitive to dihydrocoumarin	resistance to dihydrocoumarin	FYECO:0000137,FYECO:0000410	CHEBI:16151	23.2ug/ml	32
+YES_Dihydrocumarin_50ul	YES-Dhcumarin50	FYPO:0007927	FYPO:0009033	sensitive to dihydrocoumarin	resistance to dihydrocoumarin	FYECO:0000137,FYECO:0000410	CHEBI:16151	5.8ug/ml	32
+YES_EDTA_0.1	YES-EDTA0.1	FYPO:0007928	FYPO:0009034	sensitive to ethylenediaminetetraacetic acid	resistance to ethylenediaminetetraacetic acid	FYECO:0000137,FYECO:0000176	CHEBI:4735	0.1%(v/v)	32
+YES_EDTA_0.3	YES-EDTA0.3	FYPO:0007928	FYPO:0009034	sensitive to ethylenediaminetetraacetic acid	resistance to ethylenediaminetetraacetic acid	FYECO:0000137,FYECO:0000176	CHEBI:4735	0.3%(v/v)	32
+YES_EDTA_0.6	YES-EDTA0.6	FYPO:0007928	FYPO:0009034	sensitive to ethylenediaminetetraacetic acid	resistance to ethylenediaminetetraacetic acid	FYECO:0000137,FYECO:0000176	CHEBI:4735	0.6%(v/v)	32
+YES_EtOH_5percent	YES-EtOH5	FYPO:0000842	FYPO:0001453	sensitive to ethanol during vegetative growth	resistance to ethanol	FYECO:0000137,FYECO:0000212	CHEBI:16236	5% (v/v)	32
+YES_Formamide_3percent	YES-Forma3	FYPO:0000785	FYPO:0009035	sensitive to formamide	resistance to formamide	FYECO:0000137,FYECO:0000329	CHEBI:16397	3.5% (v/v)	32
+YES_HU_30mM	YES-HU30	FYPO:0000088	FYPO:0002578	sensitive to hydroxyurea	resistance to hydroxyurea	FYECO:0000137,FYECO:0000170	CHEBI:44423	30mM	32
+YES_HU_45mM	YES-HU45	FYPO:0000088	FYPO:0002578	sensitive to hydroxyurea	resistance to hydroxyurea	FYECO:0000137,FYECO:0000170	CHEBI:44423	45mM	32
+YES_NaOrthovanadate_3mM	YES-Ovana3	FYPO:0003656	FYPO:0000830	sensitive to vanadate	resistance to vanadate	FYECO:0000137,FYECO:0000026	CHEBI:30528	3mM	32
+YES_NaOrthovanadate_6mM	YES-Ovana6	FYPO:0003656	FYPO:0000830	sensitive to vanadate	resistance to vanadate	FYECO:0000137,FYECO:0000026	CHEBI:30528	6mM	32
+YES_SDS_0.01percent	YES-SDS0.01	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate	FYECO:0000137,FYECO:0000167	CHEBI:8984	0.01% (w/v)	32
+YES_SDS_0.02percent	YES-SDS0.02	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate	FYECO:0000137,FYECO:0000167	CHEBI:8984	0.02% (w/v)	32
+YES_TBH_15	YES-TBH15	FYPO:0000797	FYPO:0003383	sensitive to tert-butyl hydroperoxide	resistance to tert-butyl hydroperoxide	FYECO:0000137,FYECO:0000304	CHEBI:64090	15mM	32
+YES_TBH_2mM	YES-TBH2	FYPO:0000797	FYPO:0003383	sensitive to tert-butyl hydroperoxide	resistance to tert-butyl hydroperoxide	FYECO:0000137,FYECO:0000304	CHEBI:64090	2mM	32
+YES_UV_1000	YES-UV1000	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		1000uJ	32
+YES_UV_10min	YES-UV10m	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		10min	32
+YES_UV_2000	YES-UV2000	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		2000uJ	32
+YES_UV_20min	YES-UV20m	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		20min	32
+YES_UV_3000	YES-UV3000	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		3000uJ	32
+YES_UV_4000	YES-UV4000	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		4000uJ	32
+YES_UV_5min	YES-UV5m	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		5min	32
+YES_UV_6000	YES-UV6000	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		6000uJ	32
+YES_UV_9000	YES-UV9000	FYPO:0000268	FYPO:0009010	sensitive to UV during vegetative growth	resistance to UV during vegetative growth	FYECO:0000137,FYECO:0000315		9000uJ	32
+YES_VPA_5mM	YES-VPA5	FYPO:0000115	FYPO:0007808	sensitive to valproic acid	resistance to valproic acid	FYECO:0000137,FYECO:0000413	CHEBI:39867	5mM	32
+YES_calcofluor10_KCl	YES-Calco10KCl0.5	FYPO:0007926	FYPO:0009045	sensitive to calcofluor and potassium chloride	resistance to calcofluor and potassium chloride	FYECO:0000137,FYECO:0000113,FYECO:0000207	CHEBI:50011|CHEBI:32588	1mg/mL|0.5M	32
+YES_calcofluor_2	YES-Calco2	FYPO:0001188	FYPO:0001884	sensitive to Calcofluor White	resistance to Calcofluor White	FYECO:0000137,FYECO:0000113	CHEBI:50011	200ug/ml	32
+YES_formamide_2percent	YES-Forma2	FYPO:0000785	FYPO:0009035	sensitive to formamide	resistance to formamide	FYECO:0000137,FYECO:0000329	CHEBI:16397	2% (v/v)	32
+YES_phlox	YESphlox-Control	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334			32
+YES_phlox_1.5mM_TBH	YESphlox-TBH1.5	FYPO:0000797	FYPO:0003383	sensitive to tert-butyl hydroperoxide	resistance to tert-butyl hydroperoxide	FYECO:0000137,FYECO:0000334,FYECO:0000304	CHEBI:64090	1.5mM	32
+YES_phlox_10mM_H2O2	YESphlox-HP10	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000078	CHEBI:16240	10mM	32
+YES_phlox_12ul_Benzamidine	YESphlox-Benza12	FYPO:0007921	FYPO:0009036	sensitive to benzamidine	resistance to benzamidine	FYECO:0000137,FYECO:0000334,FYECO:0000407	CHEBI:41033	12not sure	32
+YES_phlox_15mM_H2O2	YESphlox-HP15	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000078	CHEBI:16240	15mM	32
+YES_phlox_1mM_TBH	YESphlox-TBH1	FYPO:0000797	FYPO:0003383	sensitive to tert-butyl hydroperoxide	resistance to tert-butyl hydroperoxide	FYECO:0000137,FYECO:0000334,FYECO:0000304	CHEBI:64090	1mM	32
+YES_phlox_2X_phloxine	YESphlox-Phloxine2	FYPO:0007929	FYPO:0009037	sensitive to phloxine B	resistance to phloxine B	FYECO:0000137,FYECO:0000334,FYECO:0000334	CHEBI:87192	10mg/L	32
+YES_phlox_2X_phloxine_10mM_H2O2	YESphlox-Phloxine2HP10	FYPO:0007930	FYPO:0009046	sensitive to phloxine B and hydrogen peroxide	resistance to phloxine B and hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000334,FYECO:0000078	CHEBI:87192|CHEBI:16240	2x|10mM	32
+YES_phlox_2X_phloxine_15mM_H2O2	YESphlox-Phloxine2HP15	FYPO:0007930	FYPO:0009046	sensitive to phloxine B and hydrogen peroxide	resistance to phloxine B and hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000334,FYECO:0000078	CHEBI:87192|CHEBI:16240	2x|15mM	32
+YES_phlox_2mM_Diamide	YESphlox-Diamide2	FYPO:0000799	FYPO:0002693	sensitive to diamide	resistance to diamide	FYECO:0000137,FYECO:0000334,FYECO:0000364	CHEBI:48958	2mM	32
+YES_phlox_2mM_H2O2	YESphlox-HP2	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000078	CHEBI:16240	2mM	32
+YES_phlox_3.5mM_Diamide	YESphlox-Diamide3.5	FYPO:0000799	FYPO:0002693	sensitive to diamide	resistance to diamide	FYECO:0000137,FYECO:0000334,FYECO:0000364	CHEBI:48958	3.5mM	32
+YES_phlox_3mM_Diamide	YESphlox-Diamide3	FYPO:0000799	FYPO:0002693	sensitive to diamide	resistance to diamide	FYECO:0000137,FYECO:0000334,FYECO:0000364	CHEBI:48958	3mM	32
+YES_phlox_4mM_H2O2	YESphlox-HP4	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000078	CHEBI:16240	4mM	32
+YES_phlox_4ul_Benzamidine	YESphlox-Benza4	FYPO:0007921	FYPO:0009036	sensitive to benzamidine	resistance to benzamidine	FYECO:0000137,FYECO:0000334,FYECO:0000407	CHEBI:41033	40uM	32
+YES_phlox_6mM_H2O2	YESphlox-HP6	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000078	CHEBI:16240	6mM	32
+YES_phlox_8mM_H2O2	YESphlox-HP8	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000137,FYECO:0000334,FYECO:0000078	CHEBI:16240	8mM	32
+YES_phlox_8ul_Benzamidine	YESphlox-Benza8	FYPO:0007921	FYPO:0009036	sensitive to benzamidine	resistance to benzamidine	FYECO:0000137,FYECO:0000334,FYECO:0000407	CHEBI:41033	80uM	32
+YES_phlox_Bortezomib_500ul	YESphlox-Bort500	FYPO:0001701	FYPO:0009032	sensitive to bortezomib	resistance to bortezomib	FYECO:0000137,FYECO:0000334,FYECO:0000322	CHEBI:52717	500uM	32
+YES_phlox_CdCl2_1mM	YESphlox-CdCl1	FYPO:0000096	FYPO:0000763	sensitive to cadmium	resistance to cadmium	FYECO:0000137,FYECO:0000334,FYECO:0000175	CHEBI:22978	1mM	32
+YES_phlox_EDTA_4ml	YESphlox-EDTA4	FYPO:0007928	FYPO:0009034	sensitive to ethylenediaminetetraacetic acid	resistance to ethylenediaminetetraacetic acid	FYECO:0000137,FYECO:0000334,FYECO:0000176	CHEBI:4735	4mM	32
+YES_phlox_EGTA_10mM	YESphlox-EGTA10	FYPO:0007931	FYPO:0009038	sensitive to egtazic acid	resistance to egtazic acid	FYECO:0000137,FYECO:0000334,FYECO:0000411	CHEBI:30740	10mM	32
+YES_phlox_EGTA_15mM	YESphlox-EGTA15	FYPO:0007931	FYPO:0009038	sensitive to egtazic acid	resistance to egtazic acid	FYECO:0000137,FYECO:0000334,FYECO:0000411	CHEBI:30740	15mM	32
+YES_phlox_EGTA_1mM	YESphlox-EGTA1	FYPO:0007931	FYPO:0009038	sensitive to egtazic acid	resistance to egtazic acid	FYECO:0000137,FYECO:0000334,FYECO:0000411	CHEBI:30740	1mM	32
+YES_phlox_EGTA_5mM	YESphlox-EGTA5	FYPO:0007931	FYPO:0009038	sensitive to egtazic acid	resistance to egtazic acid	FYECO:0000137,FYECO:0000334,FYECO:0000411	CHEBI:30740	5mM	32
+YES_phlox_EtOH_10percent	YESphlox-EtOH10	FYPO:0000842	FYPO:0001453	sensitive to ethanol during vegetative growth	resistance to ethanol	FYECO:0000137,FYECO:0000334,FYECO:0000212	CHEBI:16236	10% (v/v)	32
+YES_phlox_Glycerol_2percent	YESphlox-Glycerol2	FYPO:0009013	FYPO:0009015	decreased vegetative cell population viability on glycerol carbon source	increased cell population viability on glycerol carbon source	FYECO:0000334,FYECO:0000138	CHEBI:17754	2% (w/v)	32
+YES_phlox_Glycerol_2percent_MMS_0.0075percent	YESphlox-Glycerol2MMS0.0075	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000334,FYECO:0000138,FYECO:0000211	CHEBI:25255		32
+YES_phlox_Glycerol_3percent	YESphlox-Glycerol3	FYPO:0009013	FYPO:0009015	decreased vegetative cell population viability on glycerol carbon source	increased cell population viability on glycerol carbon source	FYECO:0000334,FYECO:0000138	CHEBI:17754	3% (w/v)	32
+YES_phlox_Glycerol_3percent_MMS_0.005percent	YESphlox-Glycerol3MMS0.005	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000334,FYECO:0000138,FYECO:0000211	CHEBI:25255		32
+YES_phlox_HU_8mM	YESphlox-HU8	FYPO:0000088	FYPO:0002578	sensitive to hydroxyurea	resistance to hydroxyurea	FYECO:0000137,FYECO:0000334,FYECO:0000170	CHEBI:44423	8mM	32
+YES_phlox_HU_8mM_MMS_0.075percent	YESphlox-HU8MMS0.075	FYPO:0007932	FYPO:0009050	sensitive to hydroxyurea and methyl methanesulfonate	resistance to hydroxyurea and methyl methanesulfonate	FYECO:0000137,FYECO:0000334,FYECO:0000170,FYECO:0000211	CHEBI:44423|CHEBI:25255	8mM|0.075%	32
+YES_phlox_KCl_0.5M	YESphlox-KCl0.5	FYPO:0001214	FYPO:0009039	sensitive to potassium chloride	resistance to potassium chloride	FYECO:0000137,FYECO:0000334,FYECO:0000207	CHEBI:32588	0.5M	32
+YES_phlox_KCl_0.5M_SDS_0.004percent	YESphlox-KCl0.5SDS0.004	FYPO:0007924	FYPO:0009043	sensitive to potassium chloride and sodium dodecyl sulfate	resistance to potassium chloride and sodium dodecyl sulfate	FYECO:0000137,FYECO:0000334,FYECO:0000207,FYECO:0000167	CHEBI:32588|CHEBI:8984	0.5M|0.004%	32
+YES_phlox_KCl_1M	YESphlox-KCl1	FYPO:0001214	FYPO:0009039	sensitive to potassium chloride	resistance to potassium chloride	FYECO:0000137,FYECO:0000334,FYECO:0000207	CHEBI:32588	1M	32
+YES_phlox_LiCl_4mM	YESphlox-LiCl4	FYPO:0001719	FYPO:0001583	sensitive to lithium	resistance to lithium	FYECO:0000137,FYECO:0000334,FYECO:0000093	CHEBI:49713	4mM	32
+YES_phlox_LiCl_6mM	YESphlox-LiCl6	FYPO:0001719	FYPO:0001583	sensitive to lithium	resistance to lithium	FYECO:0000137,FYECO:0000334,FYECO:0000093	CHEBI:49713	3mM	32
+YES_phlox_MMS_0.005percent	YESphlox-MMS0.005	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000137,FYECO:0000334,FYECO:0000211	CHEBI:25255	0.005% (v/v)	32
+YES_phlox_MMS_0.075percent	YESphlox-MMS0.075	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000137,FYECO:0000334,FYECO:0000211	CHEBI:25255	0.075% (v/v)	32
+YES_phlox_NAOrthovanadate_4mM	YESphlox-Ovana4	FYPO:0003656	FYPO:0000830	sensitive to vanadate	resistance to vanadate	FYECO:0000137,FYECO:0000334,FYECO:0000026	CHEBI:30528	4mM	32
+YES_phlox_NaOrthovanadate_0.5mM	YESphlox-Ovana0.5	FYPO:0003656	FYPO:0000830	sensitive to vanadate	resistance to vanadate	FYECO:0000137,FYECO:0000334,FYECO:0000026	CHEBI:30528	0.5mM	32
+YES_phlox_NaOrthovanadate_1mM	YESphlox-Ovana1	FYPO:0003656	FYPO:0000830	sensitive to vanadate	resistance to vanadate	FYECO:0000137,FYECO:0000334,FYECO:0000026	CHEBI:30528	1mM	32
+YES_phlox_SDS_0.004percent	YESphlox-SDS0.004	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate	FYECO:0000137,FYECO:0000334,FYECO:0000167	CHEBI:8984	0.004% 	32
+YES_phlox_TSA_1000nM	YESphlox-TSA1000	FYPO:0002546	FYPO:0000327	sensitive to trichostatin A	resistance to trichostatin A	FYECO:0000137,FYECO:0000334,FYECO:0000268	CHEBI:46024	1000nM	32
+YES_phlox_TSA_500nM	YESphlox-TSA500	FYPO:0002546	FYPO:0000327	sensitive to trichostatin A	resistance to trichostatin A	FYECO:0000137,FYECO:0000334,FYECO:0000268	CHEBI:46024	500nM	32
+YES_phlox_Tunicamycin_60ul	YESphlox-Tuni60	FYPO:0001457	FYPO:0001034	sensitive to tunicamycin	resistance to tunicamycin	FYECO:0000137,FYECO:0000334,FYECO:0000412	CHEBI:29699	37.5fg/ml	32
+YES_phlox_Tunicamycin_80ul	YESphlox-Tuni80	FYPO:0001457	FYPO:0001034	sensitive to tunicamycin	resistance to tunicamycin	FYECO:0000137,FYECO:0000334,FYECO:0000412	CHEBI:29699	50fg/ml	32
+YES_phlox_Tunicamycine_20ul	YESphlox-Tuni20	FYPO:0001457	FYPO:0001034	sensitive to tunicamycin	resistance to tunicamycin	FYECO:0000137,FYECO:0000334,FYECO:0000412	CHEBI:29699	12.5fg/ml	32
+YES_phlox_Tunicamycine_40ul	YESphlox-Tuni40	FYPO:0001457	FYPO:0001034	sensitive to tunicamycin	resistance to tunicamycin	FYECO:0000137,FYECO:0000334,FYECO:0000412	CHEBI:29699	25fg/ml	32
+YES_phlox_VPA_10mM	YESphlox-VPA10	FYPO:0000115	FYPO:0007808	sensitive to valproic acid	resistance to valproic acid	FYECO:0000137,FYECO:0000334,FYECO:0000413	CHEBI:39867	10mM	32
+YES_phlox_VPA_8mM	YESphlox-VPA8	FYPO:0000115	FYPO:0007808	sensitive to valproic acid	resistance to valproic acid	FYECO:0000137,FYECO:0000334,FYECO:0000413	CHEBI:39867	8mM	32
+YES_phlox_formamide_2.5_percent	YESphlox-Forma2.5	FYPO:0000785	FYPO:0009035	sensitive to formamide	resistance to formamide	FYECO:0000137,FYECO:0000334,FYECO:0000329	CHEBI:16397	2.5% (v/v)	32
+YES_phlox_glucose_0.1_percent_1week_CdCl2_1mM	YESphlox-Gluc0.1stationary7CdCl1	FYPO:0009017	FYPO:0009018	reduced viability in stationary phase upon glucose starvation in the presence of cadmium	increased viability in stationary phase upon glucose starvation in the presence of cadmium	FYECO:0000137,FYECO:0000334,skip,FYECO:0000123,FYECO:0000175	CHEBI:17234|CHEBI:22978	0.1%|1mM	32
+YES_phlox_glucose_0.1_percent_Xylose_2percent	YESphlox-Xylose2	FYPO:0009014	FYPO:0009016	decreased vegetative cell population viability on xylose carbon source	increased cell population viability on xylose carbon source	FYECO:0000334,skip,FYECO:0000414	CHEBI:18222	2% (w/v)	32
+YES_phlox_glucose_0.5_percent_1week	YESphlox-Gluc0.5starionary7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,skip,FYECO:0000123	CHEBI:17234	0.5%	32
+YES_phlox_glucose_1_percent_1week	YESphlox-Gluc1stationary7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,skip,FYECO:0000123	CHEBI:17234	1%	32
+YES_phlox_glucose_3_percent_1week	YESphlox-stationary7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,skip,FYECO:0000123	CHEBI:17234	3%	32
+YES_phlox_tea_tree_100ul	YESphlox-TeaTree100	FYPO:0007938	FYPO:0009040	sensitive to tea tree oil	resistance to tea tree oil	FYECO:0000137,FYECO:0000334,FYECO:0000415,FYECO:0000415	CHEBI:83629	0.25ul/ml	32
+YES_tea_tree	YESphlox-TeaTree1	FYPO:0007938	FYPO:0009040	sensitive to tea tree oil	resistance to tea tree oil	FYECO:0000137,FYECO:0000415,FYECO:0000415	CHEBI:83629	0.0025ul/ml	32
+YES_tea_tree_10	YESphlox-TeaTree10	FYPO:0007938	FYPO:0009040	sensitive to tea tree oil	resistance to tea tree oil	FYECO:0000137,FYECO:0000415,FYECO:0000415	CHEBI:83629	0.025ul/ml	32
+EMM_proline	EMM-Pro	FYPO:0000250	FYPO:0009028	decreased cell population growth on proline nitrogen source	increased cell population growth on proline nitrogen source	FYECO:0000246	CHEBI:17203	10mM	32
+YES_KCl_0.5M	YES-KCl0.5	FYPO:0001214	FYPO:0009039	sensitive to potassium chloride	resistance to potassium chloride	FYECO:0000137,FYECO:0000207	CHEBI:32588	0.5M	32
+YES_SDS_0.001percent	YES-SDS0.001	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate	FYECO:0000137,FYECO:0000167	CHEBI:8984	0.001% (w/v)	32
+EMM_DIP_50	EMM-DIP50	FYPO:0007933	FYPO:0009041	sensitive to 2,2′-dipyridyl	resistance to 2,2′-dipyridyl	FYECO:0000126,FYECO:0000409	CHEBI:30351	50uM	32
+YES_SDS_0.005percent	YES-SDS0.005	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate	FYECO:0000137,FYECO:0000167	CHEBI:8984	0.005% (w/v)	32
+YES_37	YES-Temp37	FYPO:0000082	FYPO:0005258	decreased cell population growth at high temperature	increased cell population growth at high temperature	FYECO:0000137,FYECO:0000004			37
+YES_Caffeine_10	YES-Caffeine	FYPO:0000097	FYPO:0000073	sensitive to caffeine during vegetative growth	resistance to caffeine	FYECO:0000137,FYECO:0000069	CHEBI:27732	10mM	32
+YES_KCl_1M	YES-KCl1	FYPO:0001214	FYPO:0009039	sensitive to potassium chloride	resistance to potassium chloride	FYECO:0000137,FYECO:0000207	CHEBI:32588	1M	32
+EMM_Glutamine	EMM-Glu	FYPO:0005242	FYPO:0005243	decreased cell population growth on glutamine nitrogen source	increased cell population growth on glutamine nitrogen source	FYECO:0000403	CHEBI:18050	20mM	32
+EMM_Arginine	EMM-Arg	FYPO:0009009	FYPO:0009029	decreased cell population growth on arginine nitrogen source	increased cell population growth on arginine nitrogen source	FYECO:0000331	CHEBI:16467	20mM	32
+YES_EtOH_10percent	YES-EtOH10	FYPO:0000842	FYPO:0001453	sensitive to ethanol during vegetative growth	resistance to ethanol	FYECO:0000137,FYECO:0000212	CHEBI:16236	10% (v/v)	32
+EMM_phlox_Act_2	EMMphlox-Act2	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A	FYECO:0000126,FYECO:0000334,FYECO:0000143	CHEBI:2762	2ng/ml	32
+EMM_phlox_Act_1	EMMphlox-Act1	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A	FYECO:0000126,FYECO:0000334,FYECO:0000143	CHEBI:2762	1ng/ml	32
+EMM_phlox_Act_0.1	EMMphlox-Act0.1	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A	FYECO:0000126,FYECO:0000334,FYECO:0000143	CHEBI:2762	0.1ng/ml	32
+EMM_phlox_EtOH_0.1	EMMphlox-EtOH0.1	FYPO:0000842	FYPO:0001453	sensitive to ethanol during vegetative growth	resistance to ethanol	FYECO:0000126,FYECO:0000334,FYECO:0000212	CHEBI:16236	0.1%	32
+YES_phlox_Act_2	YESphlox-Act2	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A	FYECO:0000137,FYECO:0000334,FYECO:0000143	CHEBI:2762	2ng/ml	32
+YES_phlox_Act_1	YESphlox-Act1	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A	FYECO:0000137,FYECO:0000334,FYECO:0000143	CHEBI:2762	1ng/ml	32
+YES_phlox_Act_0.1	YESphlox-Act0.1	FYPO:0000440	FYPO:0000441	sensitive to antimycin A	resistance to antimycin A	FYECO:0000137,FYECO:0000334,FYECO:0000143	CHEBI:2762	0.1ng/ml	32
+YES_phlox_EtOH_0.1	YESphlox-EtOH0.1	FYPO:0000842	FYPO:0001453	sensitive to ethanol during vegetative growth	resistance to ethanol	FYECO:0000137,FYECO:0000334,FYECO:0000212	CHEBI:16236	0.1%	32
+YES_phlox_Rapa_1	Yesphlox-Rapa1	FYPO:0000111	FYPO:0000077	sensitive to rapamycin	resistance to rapamycin	FYECO:0000137,FYECO:0000334,FYECO:0000242	CHEBI:9168	1µg/ml	32
+YES_phlox_Rapa_100	Yesphlox-Rapa100	FYPO:0000111	FYPO:0000077	sensitive to rapamycin	resistance to rapamycin	FYECO:0000137,FYECO:0000334,FYECO:0000242	CHEBI:9168	100ng/ml	32
+YES_phlox_DMSO	Yesphlox-DMSO	FYPO:0004674	FYPO:0009047	sensitive to dimethyl sulfoxide	resistance to dimethyl sulfoxide	FYECO:0000137,FYECO:0000334,FYECO:0000371	CHEBI:28262	0.15%	32
+YES_phlox_Caffeine10	Yesphlox-Caffeine10	FYPO:0000097	FYPO:0000073	sensitive to caffeine during vegetative growth	resistance to caffeine	FYECO:0000137,FYECO:0000334,FYECO:0000069	CHEBI:27732	10mM	32
+YES_phlox_Torin5	Yesphlox-Torin5	FYPO:0002701	FYPO:0005193	sensitive to torin1	resistance to torin1	FYECO:0000137,FYECO:0000334,FYECO:0000390	CHEBI:84327	5µM	32
+YES_phlox_Gal_2	Yesphlox-Gal2	FYPO:0009012	FYPO:0009011	decreased vegetative cell population viability on galactose carbon source	increased cell population viability on galactose carbon source	FYECO:0000334,FYECO:0000358	CHEBI:28260	2%	32
+YES_phlox_Sorb1.2	Yesphlox-Sorb1.2	FYPO:0000112	FYPO:0009042	sensitive to sorbitol	resistance to sorbitol	FYECO:0000137,FYECO:0000334,FYECO:0000025	CHEBI:30911	1.2M	32
+YES_phlox_25C_glucose_0.1_percent	YESphlox-Temp25Gluc0.1	FYPO:0004162	FYPO:0004163	loss of viability upon glucose starvation	increased viability upon glucose starvation	FYECO:0000137,FYECO:0000334,skip	CHEBI:17234	0.1%	25
+YES_phlox_25C_glucose_0.5_percent	YESphlox-Temp25Gluc0.5	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334,skip	CHEBI:17234	0.5%	25
+YES_phlox_25C_glucose_1_percent	YESphlox-Temp25Gluc1	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334,skip	CHEBI:17234	1%	25
+YES_phlox_25C_glucose_3_percent	YESphlox-Temp25Gluc3	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334,skip	CHEBI:17234	3%	25
+YESphlox_Xylose2Gluc0.1	YESphlox-Xylose2Gluc0.1	FYPO:0009014	FYPO:0009016	decreased vegetative cell population viability on xylose carbon source	increased cell population viability on xylose carbon source	FYECO:0000334,FYECO:0000414,FYECO:0000081	CHEBI:18222		32
