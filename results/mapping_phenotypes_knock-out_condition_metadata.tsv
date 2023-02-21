@@ -122,7 +122,7 @@ YES_KCl_0.5M	YES-KCl0.5	FYPO:0001214	FYPO:0009039	sensitive to potassium chlorid
 YES_SDS_0.001percent	YES-SDS0.001	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate
 EMM_DIP_50	EMM-DIP50	FYPO:0007933	FYPO:0009041	sensitive to 2,2′-dipyridyl	resistance to 2,2′-dipyridyl
 YES_SDS_0.005percent	YES-SDS0.005	FYPO:0000841	FYPO:0005266	sensitive to sodium dodecyl sulfate	resistance to sodium dodecyl sulfate
-YES_37	YES-Temp37	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth
+YES_37	YES-Temp37	FYPO:0000082	FYPO:0005258	decreased cell population growth at high temperature	increased cell population growth at high temperature
 YES_Caffeine_10	YES-Caffeine	FYPO:0000097	FYPO:0000073	sensitive to caffeine during vegetative growth	resistance to caffeine
 YES_KCl_1M	YES-KCl1	FYPO:0001214	FYPO:0009039	sensitive to potassium chloride	resistance to potassium chloride
 EMM_Glutamine	EMM-Glu	FYPO:0005242	FYPO:0005243	decreased cell population growth on glutamine nitrogen source	increased cell population growth on glutamine nitrogen source

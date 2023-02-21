@@ -31,7 +31,7 @@ value	terms	exclude_term	term_names	exclude_term_name
 15mM	dose			
 1M	dose			
 1mM	dose			
-1week	FYECO:0000158		grouping growth to stationary phase	
+1week	FYECO:0000123		growth to stationary phase	
 2	dose			
 2.5	dose			
 200	dose			
@@ -127,7 +127,7 @@ Tunicamycine	FYECO:0000412		+ tunicamycin
 UV	FYECO:0000315		UV	
 VPA	FYECO:0000413		+ valproic acid	
 Xylose	FYECO:0000414	FYECO:0000137	xylose YE	YES
-Xylose2Gluc0.1	FYECO:0000414	FYECO:0000137	xylose YE	YES
+Xylose2Gluc0.1	FYECO:0000414,FYECO:0000081	FYECO:0000137	xylose YE|low glucose YES	YES
 YES	FYECO:0000137		YES	
 YESphlox	FYECO:0000334		+ phloxine B	
 calcofluor	FYECO:0000113		+ Calcofluor White	

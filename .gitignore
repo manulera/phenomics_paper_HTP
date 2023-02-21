@@ -1,6 +1,5 @@
 /.venv
 /data
-/results
 /misc/*.txt
 /.DS_Store
 mapping_conditions1_check.md

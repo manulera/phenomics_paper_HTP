@@ -20,7 +20,7 @@ def nb_different_words(str1, str2):
 
 for sheet_name, column_name in [('knock-out_condition_metadata', 'Condition_name_long'), ('OE_condition_metadata', 'Condition Name')]:
 
-    data = pandas.read_excel('data/vals_spreadsheet.xlsx', sheet_name=sheet_name, na_filter=False)
+    data = pandas.read_excel('mappings/vals_spreadsheet.xlsx', sheet_name=sheet_name, na_filter=False)
     resistance_terms = list()
     sensitive_terms = list()
     resistance_term_names = list()
@@ -59,8 +59,8 @@ for sheet_name, column_name in [('knock-out_condition_metadata', 'Condition_name
 
     data['difference'] = data.apply(lambda r: nb_different_words(r['sensitive_label'], r['resistance_label']),axis=1)
 
-    data.loc[data['difference'] != 2,['sensitive_label', 'resistance_label']].to_csv(f'data/mapping_phenotypes_{sheet_name}_check.tsv', sep='\t', index=False)
+    data.loc[data['difference'] != 2,['sensitive_label', 'resistance_label']].to_csv(f'checks/mapping_phenotypes_{sheet_name}_check.tsv', sep='\t', index=False)
     if 'Condition_name_long' in data:
-        data[['Condition_name_long','Condition_short','sensitive', 'resistance', 'sensitive_label', 'resistance_label']].to_csv(f'mapping_phenotypes_{sheet_name}.tsv',sep='\t',index=False)
+        data[['Condition_name_long','Condition_short','sensitive', 'resistance', 'sensitive_label', 'resistance_label']].to_csv(f'results/mapping_phenotypes_{sheet_name}.tsv',sep='\t',index=False)
     else:
-        data[['Condition Name','sensitive', 'resistance', 'sensitive_label', 'resistance_label']].to_csv(f'mapping_phenotypes_{sheet_name}.tsv',sep='\t',index=False)
+        data[['Condition Name','sensitive', 'resistance', 'sensitive_label', 'resistance_label']].to_csv(f'results/mapping_phenotypes_{sheet_name}.tsv',sep='\t',index=False)

@@ -1,3 +1,4 @@
+Condition_name_long	fyeco_terms
 EMM	FYECO:0000126
 EMM_3AT_4	FYECO:0000126,FYECO:0000251,dose
 EMM_3AT_6	FYECO:0000126,FYECO:0000251,dose
@@ -108,11 +109,11 @@ YES_phlox_Tunicamycine_40ul	FYECO:0000137,FYECO:0000334,FYECO:0000412,dose
 YES_phlox_VPA_10mM	FYECO:0000137,FYECO:0000334,FYECO:0000413,dose
 YES_phlox_VPA_8mM	FYECO:0000137,FYECO:0000334,FYECO:0000413,dose
 YES_phlox_formamide_2.5_percent	FYECO:0000137,FYECO:0000334,FYECO:0000329,dose,dose
-YES_phlox_glucose_0.1_percent_1week_CdCl2_1mM	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000158,FYECO:0000175,dose
+YES_phlox_glucose_0.1_percent_1week_CdCl2_1mM	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000123,FYECO:0000175,dose
 YES_phlox_glucose_0.1_percent_Xylose_2percent	FYECO:0000334,skip,dose,dose,FYECO:0000414,dose
-YES_phlox_glucose_0.5_percent_1week	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000158
-YES_phlox_glucose_1_percent_1week	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000158
-YES_phlox_glucose_3_percent_1week	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000158
+YES_phlox_glucose_0.5_percent_1week	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000123
+YES_phlox_glucose_1_percent_1week	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000123
+YES_phlox_glucose_3_percent_1week	FYECO:0000137,FYECO:0000334,skip,dose,dose,FYECO:0000123
 YES_phlox_tea_tree_100ul	FYECO:0000137,FYECO:0000334,FYECO:0000415,FYECO:0000415,dose
 YES_tea_tree	FYECO:0000137,FYECO:0000415,FYECO:0000415
 YES_tea_tree_10	FYECO:0000137,FYECO:0000415,FYECO:0000415,dose
@@ -146,4 +147,4 @@ YES_phlox_25C_glucose_0.1_percent	FYECO:0000137,FYECO:0000334,temperature,skip,d
 YES_phlox_25C_glucose_0.5_percent	FYECO:0000137,FYECO:0000334,temperature,skip,dose,dose
 YES_phlox_25C_glucose_1_percent	FYECO:0000137,FYECO:0000334,temperature,skip,dose,dose
 YES_phlox_25C_glucose_3_percent	FYECO:0000137,FYECO:0000334,temperature,skip,dose,dose
-YESphlox_Xylose2Gluc0.1	FYECO:0000334,FYECO:0000414
+YESphlox_Xylose2Gluc0.1	FYECO:0000334,FYECO:0000414,FYECO:0000081
