@@ -1,4 +1,4 @@
-Condition_name_long	chemicals_chebi	chemicals_amount	temperature
+Condition_name_long	chemicals_chebi	condition_dose	temperature
 YES_0.5M_KCl_SDS_0.01percent	CHEBI:32588|CHEBI:8984	0.5M|0.01%
 YES_150mM_NaCl_MMS_0.005percent	CHEBI:26710|CHEBI:25255	150mM|0.005%
 YES_1M_KCl_SDS_0.01percent	CHEBI:32588|CHEBI:8984	1M|0.01%

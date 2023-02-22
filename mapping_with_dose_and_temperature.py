@@ -9,7 +9,7 @@ settings = [
     ('OE_condition_metadata', 'Condition Name')
     ]
 
-
+all_data = list()
 
 for sheet_name, column_name in settings:
     phenotype_mappings = pandas.read_csv(f'results/mapping_phenotypes_{sheet_name}.tsv', sep='\t', na_filter=False)
@@ -19,11 +19,11 @@ for sheet_name, column_name in settings:
     if sheet_name == 'knock-out_condition_metadata':
         dose_table = spreadsheet_data.loc[:,[ column_name, 'Dose', 'Unit']]
         dose_table['Dose'] = dose_table['Dose'].astype('str')
-        dose_table['chemicals_amount'] = dose_table.apply(lambda x: x['Dose'] + x['Unit'], axis=1)
+        dose_table['condition_dose'] = dose_table.apply(lambda x: x['Dose'] + x['Unit'], axis=1)
         dose_table.drop(columns=['Dose', 'Unit'], inplace=True)
     else:
         dose_table = spreadsheet_data.loc[:,[ column_name, 'Dose']]
-        dose_table.rename(columns={'Dose': 'chemicals_amount'}, inplace=True)
+        dose_table.rename(columns={'Dose': 'condition_dose'}, inplace=True)
 
 
     merged_data = phenotype_mappings.merge(condition_mappings, on=column_name)
@@ -47,6 +47,14 @@ for sheet_name, column_name in settings:
 
     merged_data['fyeco_terms'] = merged_data['fyeco_terms'].apply(lambda x : ','.join(i for i in x.split(',') if i not in ['temperature', 'dose']))
 
+    if column_name == 'Condition_name_long':
+        merged_data.drop(columns='Condition_name_long', inplace=True)
+        merged_data.rename(columns={'Condition_short': 'condition'}, inplace=True)
+        merged_data['expression'] = 'null'
+    else:
+        merged_data.rename(columns={column_name: 'condition'}, inplace=True)
+        merged_data['expression'] = 'overexpression'
 
+    all_data.append(merged_data)
 
-    merged_data.to_csv(f'results/full_mappings_{sheet_name}.tsv', sep='\t', index=False)
+pandas.concat(all_data).to_csv(f'results/full_mappings.tsv', sep='\t', index=False)
