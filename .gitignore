@@ -1,5 +1,6 @@
 /.venv
-/data
 /misc/*.txt
-/.DS_Store
+.DS_Store
 mapping_conditions1_check.md
+data/~*
+data/*.json
