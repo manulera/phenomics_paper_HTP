@@ -33,7 +33,7 @@ for sheet_name, column_name in settings:
     manually_mapped_logi = merged_data[column_name].isin(set(manually_mapped[column_name]))
     auto_mapped = merged_data.loc[~manually_mapped_logi, :].copy()
 
-    auto_mapped['chemicals_chebi'] = auto_mapped['resistance'].apply(lambda x: fypo2chebi[x] if x in fypo2chebi else '')
+    auto_mapped['chemical_or_agent'] = auto_mapped['resistance'].apply(lambda x: fypo2chebi[x] if x in fypo2chebi else '')
     auto_mapped = auto_mapped.merge(dose_table, on=column_name, how='left')
 
     # Merge again
@@ -45,7 +45,7 @@ for sheet_name, column_name in settings:
 
     # Remove the "dose" and "temperature" placeholders
 
-    merged_data['fyeco_terms'] = merged_data['fyeco_terms'].apply(lambda x : ','.join(i for i in x.split(',') if i not in ['temperature', 'dose']))
+    merged_data['fyeco_terms'] = merged_data['fyeco_terms'].apply(lambda x : ','.join(i for i in x.split(',') if i not in ['temperature', 'dose', 'skip']))
 
     if column_name == 'Condition_name_long':
         merged_data.drop(columns='Condition_name_long', inplace=True)
@@ -57,4 +57,7 @@ for sheet_name, column_name in settings:
 
     all_data.append(merged_data)
 
-pandas.concat(all_data).to_csv(f'results/full_mappings.tsv', sep='\t', index=False)
+# Add missing conditions that where mapped elsewhere
+missing_conditions = pandas.read_csv(f'mappings/missing_conditions.tsv', sep='\t', na_filter=False)
+
+pandas.concat(all_data + [missing_conditions]).to_csv(f'results/full_mappings.tsv', sep='\t', index=False)
