@@ -20,14 +20,18 @@ poetry shell
 Run this:
 
 ```bash
-# Download necessary files from pombase and from elife
-bash get_data.sh
-# Dictionaries that map FYPO terms to their labels or to their 
+# Make dictionaries that map FYPO terms to their labels or the CHEBI terms used in them
 python ontology_to_term_dict.py data/fypo-edit.owl data/fypo-edit-dict.json data/fypo-edit-chebi-dict.json
+# Make mapping between the condition substrings to FYECO terms, see 'results/mapping_conditions_*.tsv'
 python mapping_conditions.py
+# Make mapping between the phenotypes and FYPO terms, see mapping_phenotypes_*.tsv
 python mapping_phenotypes.py
+# Combine both mappings and add chebi terms and doses, see full_mappings.tsv
 python mapping_with_dose_and_temperature.py
+# Create an intermediate format prior to formatting for pombase (keep only rows with phenotypes, only relevant columns)
 python make_intermediate_dataset.py
+# Create an intermediate format prior to formatting for pombase (keep only rows with phenotypes, only relevant columns) for microscopy data
 python microscopy_phenotypes.py
-python make_pombase_dataset.py 
+# Create the file that can be submitted to PomBase
+python make_pombase_dataset.py
 ```
