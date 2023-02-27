@@ -20,8 +20,8 @@ poetry shell
 Run this:
 
 ```bash
-# Download data of valid ids from PomBase
-curl -k https://www.pombase.org/data/names_and_identifiers/gene_IDs_names.tsv | tail -n+2 >> valid_ids_data/gene_IDs_names.tsv
+# Download data of valid ids from PomBase and exon coordinates
+bash get_data.sh
 # Make dictionaries that map FYPO terms to their labels or the CHEBI terms used in them
 python ontology_to_term_dict.py data/fypo-edit.owl data/fypo-edit-dict.json data/fypo-edit-chebi-dict.json
 # Make mapping between the condition substrings to FYECO terms, see 'results/mapping_conditions_*.tsv'
