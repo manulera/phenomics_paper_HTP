@@ -12,5 +12,5 @@ gene_ids_data = pandas.read_csv('../data/gene_IDs_names.tsv',sep='\t',na_filter=
 
 data_from_missing_ids = exon_coordinates[~exon_coordinates.systematic_id.isin(set(gene_ids_data.systematic_id))]
 
-for i in data_from_missing_ids.systematic_id.values:
+for i in sorted(list(set(data_from_missing_ids.systematic_id.values))):
     print(i)
