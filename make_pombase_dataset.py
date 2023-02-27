@@ -4,6 +4,10 @@ data = pandas.concat([
     pandas.read_csv('results/pombase_intermediate_dataset.tsv',delimiter='\t', na_filter=False),
     pandas.read_csv('results/microscopy_intermediate_dataset.tsv',delimiter='\t', na_filter=False),
 ])
+data.drop(columns=['file', 'sheet_name'], inplace=True)
+data = data[data.systematic_id != '972'].copy()
+
+
 mappings = pandas.read_csv('results/full_mappings.tsv',delimiter='\t', na_filter=False)
 
 # Add UV to the mappings
