@@ -73,4 +73,6 @@ data.loc[data.synonym_coordinates==data.coordinates, 'synonym_coordinates'] = ''
 output_data = data[['systematic_id', 'systematic_id_missing', 'current_synonym', 'synonym_already_present', 'chromosome', 'coordinates', 'current_coordinates', 'synonym_coordinates']]
 output_data.to_csv('results/ncRNA_table.tsv', sep='\t', index=False)
 output_data[output_data.systematic_id_missing == True].to_csv('results/ncRNA_table_missing.tsv', sep='\t', index=False)
+output_data.fillna('', inplace=True)
+output_data[output_data.current_coordinates != ''].to_csv('results/ncRNA_table_differing_coordinates.tsv', sep='\t', index=False)
 
