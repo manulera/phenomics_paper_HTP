@@ -58,7 +58,7 @@ for sheet_name, column_name in settings:
             if len(mapping_list)==2:
                 terms2remove.append(mapping_list[1])
 
-        mapping_condition_dict[condition] =  [term for term in terms2include if term not in terms2remove]
+        mapping_condition_dict[condition] =  sorted(list(set(term for term in terms2include if term not in terms2remove)))
 
     with open(results_file,'w') as out:
         out.write(f'{column_name}\tfyeco_terms\n')

@@ -60,4 +60,5 @@ for sheet_name, column_name in settings:
 # Add missing conditions that where mapped elsewhere
 missing_conditions = pandas.read_csv(f'mappings/missing_conditions.tsv', sep='\t', na_filter=False)
 
-pandas.concat(all_data + [missing_conditions]).to_csv(f'results/full_mappings.tsv', sep='\t', index=False)
+full_mappings = pandas.concat(all_data + [missing_conditions])
+full_mappings.to_csv(f'results/full_mappings_old.tsv', sep='\t', index=False)

@@ -1,0 +1,56 @@
+fyeco_term	chebi_term	fyeco_label	chebi_label
+FYECO:0000251	CHEBI:40036	+ amitrole	amitrole
+FYECO:0000408	CHEBI:609827	+ canavanin	L-canavanine
+FYECO:0000179	CHEBI:17561	+ cysteine	L-cysteine
+FYECO:0000178	CHEBI:16643	+ met	L-methionine
+FYECO:0000277	CHEBI:22907	+ bleomycin	bleomycin
+FYECO:0000166	CHEBI:26710	+ NaCl	sodium chloride
+FYECO:0000322	CHEBI:52717	+ bortezomib	bortezomib
+FYECO:0000319	CHEBI:48080	+ BFA	brefeldin A
+FYECO:0000311	CHEBI:48828	+ CoCl2	cobalt(2+
+FYECO:0000257	CHEBI:27641	+ cycloheximide	cycloheximide
+FYECO:0000410	CHEBI:16151	+ 3,4-dihydrocoumarin	3,4-dihydrocoumarin
+FYECO:0000176	CHEBI:4735	+ EDTA	ethylenediaminetetraacetic acid
+FYECO:0000212	CHEBI:16236	+ ethanol	ethanol
+FYECO:0000329	CHEBI:16397	+ formamide	formamide
+FYECO:0000170	CHEBI:44423	+ HU	hydroxyurea
+FYECO:0000026	CHEBI:30528	+ vanadate	vanadium oxoanion
+FYECO:0000167	CHEBI:8984	+ SDS	sodium dodecyl sulfate
+FYECO:0000304	CHEBI:64090	+ TBHP	tert-butyl hydroperoxide
+FYECO:0000413	CHEBI:39867	+ valproic acid	valproic acid
+FYECO:0000113	CHEBI:50011	+ Calcofluor White	Calcofluor White
+FYECO:0000078	CHEBI:16240	+ H2O2	hydrogen peroxide
+FYECO:0000407	CHEBI:41033	+ benzamidine	benzamidine
+FYECO:0000364	CHEBI:48958	+ diamide	1,1'-azobis(N,N-dimethylformamide
+FYECO:0000175	CHEBI:22978	+ CdCl2	cadmium molecular entity
+FYECO:0000411	CHEBI:30740	+ egtazic acid	ethylene glycol bis(2-aminoethyl
+FYECO:0000138	CHEBI:17754	glycerol YE	glycerol
+FYECO:0000207	CHEBI:32588	+ KCl	potassium chloride
+FYECO:0000093	CHEBI:49713	+ Li ions	lithium(1+
+FYECO:0000211	CHEBI:25255	+ MMS	methyl methanesulfonate
+FYECO:0000268	CHEBI:46024	+ trichostatin A	trichostatin A
+FYECO:0000412	CHEBI:29699	+ tunicamycin	tunicamycin
+FYECO:0000414	CHEBI:18222	xylose YE	xylose
+FYECO:0000123	CHEBI:17234	growth to stationary phase	glucose
+FYECO:0000415	CHEBI:83629	+ tea tree oil	tea tree oil
+FYECO:0000246	CHEBI:17203	glucose MM, proline nitrogen source	L-proline
+FYECO:0000409	CHEBI:30351	+ 2,2'-dipyridyl	2,2'-bipyridine
+FYECO:0000069	CHEBI:27732	+ caffeine	caffeine
+FYECO:0000403	CHEBI:18050	glucose MM, glutamine nitrogen source	L-glutamine
+FYECO:0000331	CHEBI:16467	glucose MM, arginine nitrogen source	L-arginine
+FYECO:0000143	CHEBI:2762	+ antimycin A	antimycin A
+FYECO:0000242	CHEBI:9168	+ rapamycin	sirolimus
+FYECO:0000371	CHEBI:28262	+ DMSO	dimethyl sulfoxide
+FYECO:0000390	CHEBI:84327	+ torin1	torin 1
+FYECO:0000358	CHEBI:28260	YES + galactose	galactose
+FYECO:0000025	CHEBI:30911	+ sorbitol	glucitol
+FYECO:0000254	CHEBI:28938	glucose MM, ammonium nitrogen source	ammonium
+FYECO:0000263	CHEBI:14321	glucose MM, glutamate nitrogen source	glutamate(1-
+FYECO:0000416	CHEBI:17561	glucose MM, cysteine nitrogen source	L-cysteine
+FYECO:0000278	CHEBI:17191	glucose MM, isoleucine nitrogen source	L-isoleucine
+FYECO:0000417	CHEBI:16643	glucose MM, methionine nitrogen source	L-methionine
+FYECO:0000296	CHEBI:17295	glucose MM, phenylalanine nitrogen source	L-phenylalanine
+FYECO:0000072	CHEBI:17754	glycerol MM with trace glucose	glycerol
+FYECO:0000289	CHEBI:12936	galactose MM	D-galactose
+FYECO:0000334	CHEBI:87192	+ phloxine B	phloxine B
+FYECO:0000181	CHEBI:17234	+ glucose	glucose

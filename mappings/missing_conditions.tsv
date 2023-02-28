@@ -1,7 +1,7 @@
 condition	sensitive	resistance	sensitive_label	resistance_label	fyeco_terms	chemical_or_agent	condition_dose	temperature	expression
 YESphlox-Gluc0.1stationary7	FYPO:0005231	FYPO:0009054	loss of viability in stationary phase upon glucose starvation	increased viabilitiy in stationary phase upon glucose starvation	FYECO:0000081,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.1%	32	null
 YESphlox-Gluc0.5stationary7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.5%	32	null
-YESphlox-NaCl150MMS0.005	FYPO:0007925	FYPO:0009044	sensitive to sodium chloride and methyl methanesulfonate	resistance to sodium chloride and methyl methanesulfonate	FYECO:0000137,FYECO:0000334,FYECO:0000166,FYECO:0000211	CHEBI:26710|CHEBI:252551	50mM|0.005%	32	null
+YESphlox-NaCl150MMS0.005	FYPO:0007925	FYPO:0009044	sensitive to sodium chloride and methyl methanesulfonate	resistance to sodium chloride and methyl methanesulfonate	FYECO:0000137,FYECO:0000334,FYECO:0000166,FYECO:0000211	CHEBI:26710|CHEBI:25255	50mM|0.005%	32	null
 YESphlox-NaCl150	FYPO:0005889	FYPO:0005968	sensitive to sodium chloride	resistance to sodium chloride	FYECO:0000137,FYECO:0000334,FYECO:0000166	CHEBI:26710	150mM	32	null
 YESphlox-Gluc0.1Aged7	FYPO:0005231	FYPO:0001309	loss of viability in stationary phase upon glucose starvation	increased viability in stationary phase	FYECO:0000081,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.1%	32	null
 YESphlox-Gluc0.5Aged7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.5%	32	null

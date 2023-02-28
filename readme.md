@@ -29,6 +29,7 @@ python mapping_conditions.py
 # Make mapping between the phenotypes and FYPO terms, see mapping_phenotypes_*.tsv
 python mapping_phenotypes.py
 # Combine both mappings and add chebi terms and doses, see full_mappings.tsv
+python old_mapping_to_new_mapping.py
 python mapping_with_dose_and_temperature.py
 # Create an intermediate format prior to formatting for pombase (keep only rows with phenotypes, only relevant columns)
 python make_intermediate_dataset.py
