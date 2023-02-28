@@ -32,6 +32,6 @@ lenght_data['better_than_wild_type'] = lenght_data['score'] > 0
 columns = ['condition', 'systematic_id', 'better_than_wild_type', 'score', 'allele_type', 'expression', 'evidence']
 
 output_data = pandas.concat(f[columns] for f in [lenght_data, binuc_data])
-output_data['score'] = output_data['score']/100.
-output_data['score_units'] = 'fold_change'
+output_data['severity'] = output_data['score'].apply(lambda x: 'normalised_difference({:1.3})'.format(x/100))
+output_data.drop(columns='score', inplace=True)
 output_data.to_csv('results/microscopy_intermediate_dataset.tsv', sep='\t', index=False)

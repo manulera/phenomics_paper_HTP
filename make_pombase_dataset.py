@@ -7,18 +7,10 @@ data = pandas.concat([
 data.drop(columns=['file', 'sheet_name'], inplace=True)
 data = data[data.systematic_id != '972'].copy()
 
-
 mappings = pandas.read_csv('results/full_mappings.tsv',delimiter='\t', na_filter=False)
-
-# Add UV to the mappings
-mappings.loc[mappings['condition'].str.contains('YES-UV'), 'chemical_or_agent'] = 'UV'
-
-
 mappings.drop(columns=['sensitive_label', 'resistance_label'], inplace=True)
 
 merged_data = data.merge(mappings, on=['condition', 'expression'], how='left')
-
-merged_data['temperature'] = merged_data['temperature'].astype(int)
 
 merged_data['fypo_id'] = ''
 merged_data.loc[merged_data.better_than_wild_type, 'fypo_id'] = merged_data.loc[merged_data.better_than_wild_type, 'resistance']
@@ -26,6 +18,9 @@ merged_data.loc[~merged_data.better_than_wild_type, 'fypo_id'] = merged_data.loc
 merged_data.drop(columns=['sensitive','resistance',], inplace=True)
 
 merged_data.to_csv('results/analysis_dataset.tsv', sep='\t', index=False, float_format='%.3f')
+
+ncRNA_table = pandas.read_csv('results/ncRNA_table.tsv',delimiter='\t', na_filter=False)[['systematic_id', 'allele_variant']]
+merged_data = merged_data.merge(ncRNA_table, on='systematic_id', how='left')
 
 merged_data.drop(inplace=True, columns=[
     'condition',
@@ -39,11 +34,8 @@ merged_data.rename(inplace=True, columns={
     'evidence': 'Evidence',
     'fyeco_terms': 'Condition',
     'fypo_id': 'FYPO ID',
-    'temperature': 'Temperature',
-    'chemical_or_agent': 'Chemical or agent',
-    'condition_dose': 'Chemical or agent dose',
-    'score': 'Phenotype score',
-    'score_units': 'Phenotype score units'
+    'severity': 'Severity',
+    'allele_variant': 'Allele Variant'
 })
 merged_data['Allele description'] = merged_data['Allele type']
 merged_data['Parental strain'] = '972 h-'
@@ -54,7 +46,7 @@ merged_data['Gene name'] = ''
 merged_data['Allele name'] = ''
 merged_data['Allele synonym'] = ''
 merged_data['Penetrance'] = ''
-merged_data['Severity'] = ''
+
 merged_data['Extension'] = ''
 merged_data['Reference'] = 'PMID:34984977'
 merged_data['taxon'] = '4896'
@@ -81,11 +73,7 @@ column_order = [
     'taxon',
     'Date',
     'Ploidy',
-    'Temperature',
-    'Chemical or agent',
-    'Chemical or agent dose',
-    'Phenotype score',
-    'Phenotype score units'
+    'Allele Variant'
 ]
 
 merged_data = merged_data.loc[:,column_order]

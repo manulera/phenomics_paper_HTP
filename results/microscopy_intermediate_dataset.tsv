@@ -1,34 +1,34 @@
-condition	systematic_id	better_than_wild_type	score	allele_type	expression	evidence	score_units
-microscopy_length	SPNCRNA.236	True	0.1030927835	deletion	null	ECO:0001098	fold_change
-microscopy_length	SPNCRNA.323	True	0.05154639175	deletion	null	ECO:0001098	fold_change
-microscopy_length	SPNCRNA.412	True	0.07216494845	deletion	null	ECO:0001098	fold_change
-microscopy_length	SPNCRNA.819	False	-0.07422680412	deletion	null	ECO:0001098	fold_change
-microscopy_length	SPNCRNA.934	True	0.05154639175	deletion	null	ECO:0001098	fold_change
-microscopy_length	SPNCRNA.989	False	-0.07525773196	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.1064	False	-0.20951919319999998	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.115	False	-0.24375	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.1166	True	0.21	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.1348	False	-0.341026971	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.1415	False	-0.3468932503	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.1530	False	-0.2475700721	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.1559	False	-0.2197420635	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.175	False	-0.2412761283	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.177	False	-0.24375	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.242	False	-0.2005602097	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.289	False	-0.27133567880000004	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.323	True	0.375	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.389	False	-0.32459404599999997	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.399	False	-0.2250441696	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.412	True	0.2604166667	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.421	False	-0.2397905759	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.475	False	-0.23867449659999998	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.534	False	-0.2863461485	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.539	False	-0.20807783019999998	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.628	False	-0.2638274336	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.720	False	-0.4804389313	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.737	False	-0.2001201923	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.738	False	-0.2154178674	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.808	True	0.21	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.819	False	-0.5504458388	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.934	True	0.375	deletion	null	ECO:0001098	fold_change
-microscopy_binucleate	SPNCRNA.942	False	-0.21482240440000003	deletion	null	ECO:0001098	fold_change
+condition	systematic_id	better_than_wild_type	allele_type	expression	evidence	severity
+microscopy_length	SPNCRNA.236	True	deletion	null	ECO:0001098	normalised_difference(0.103)
+microscopy_length	SPNCRNA.323	True	deletion	null	ECO:0001098	normalised_difference(0.0515)
+microscopy_length	SPNCRNA.412	True	deletion	null	ECO:0001098	normalised_difference(0.0722)
+microscopy_length	SPNCRNA.819	False	deletion	null	ECO:0001098	normalised_difference(-0.0742)
+microscopy_length	SPNCRNA.934	True	deletion	null	ECO:0001098	normalised_difference(0.0515)
+microscopy_length	SPNCRNA.989	False	deletion	null	ECO:0001098	normalised_difference(-0.0753)
+microscopy_binucleate	SPNCRNA.1064	False	deletion	null	ECO:0001098	normalised_difference(-0.21)
+microscopy_binucleate	SPNCRNA.115	False	deletion	null	ECO:0001098	normalised_difference(-0.244)
+microscopy_binucleate	SPNCRNA.1166	True	deletion	null	ECO:0001098	normalised_difference(0.21)
+microscopy_binucleate	SPNCRNA.1348	False	deletion	null	ECO:0001098	normalised_difference(-0.341)
+microscopy_binucleate	SPNCRNA.1415	False	deletion	null	ECO:0001098	normalised_difference(-0.347)
+microscopy_binucleate	SPNCRNA.1530	False	deletion	null	ECO:0001098	normalised_difference(-0.248)
+microscopy_binucleate	SPNCRNA.1559	False	deletion	null	ECO:0001098	normalised_difference(-0.22)
+microscopy_binucleate	SPNCRNA.175	False	deletion	null	ECO:0001098	normalised_difference(-0.241)
+microscopy_binucleate	SPNCRNA.177	False	deletion	null	ECO:0001098	normalised_difference(-0.244)
+microscopy_binucleate	SPNCRNA.242	False	deletion	null	ECO:0001098	normalised_difference(-0.201)
+microscopy_binucleate	SPNCRNA.289	False	deletion	null	ECO:0001098	normalised_difference(-0.271)
+microscopy_binucleate	SPNCRNA.323	True	deletion	null	ECO:0001098	normalised_difference(0.375)
+microscopy_binucleate	SPNCRNA.389	False	deletion	null	ECO:0001098	normalised_difference(-0.325)
+microscopy_binucleate	SPNCRNA.399	False	deletion	null	ECO:0001098	normalised_difference(-0.225)
+microscopy_binucleate	SPNCRNA.412	True	deletion	null	ECO:0001098	normalised_difference(0.26)
+microscopy_binucleate	SPNCRNA.421	False	deletion	null	ECO:0001098	normalised_difference(-0.24)
+microscopy_binucleate	SPNCRNA.475	False	deletion	null	ECO:0001098	normalised_difference(-0.239)
+microscopy_binucleate	SPNCRNA.534	False	deletion	null	ECO:0001098	normalised_difference(-0.286)
+microscopy_binucleate	SPNCRNA.539	False	deletion	null	ECO:0001098	normalised_difference(-0.208)
+microscopy_binucleate	SPNCRNA.628	False	deletion	null	ECO:0001098	normalised_difference(-0.264)
+microscopy_binucleate	SPNCRNA.720	False	deletion	null	ECO:0001098	normalised_difference(-0.48)
+microscopy_binucleate	SPNCRNA.737	False	deletion	null	ECO:0001098	normalised_difference(-0.2)
+microscopy_binucleate	SPNCRNA.738	False	deletion	null	ECO:0001098	normalised_difference(-0.215)
+microscopy_binucleate	SPNCRNA.808	True	deletion	null	ECO:0001098	normalised_difference(0.21)
+microscopy_binucleate	SPNCRNA.819	False	deletion	null	ECO:0001098	normalised_difference(-0.55)
+microscopy_binucleate	SPNCRNA.934	True	deletion	null	ECO:0001098	normalised_difference(0.375)
+microscopy_binucleate	SPNCRNA.942	False	deletion	null	ECO:0001098	normalised_difference(-0.215)

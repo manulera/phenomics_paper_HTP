@@ -53,10 +53,10 @@ for data_file, gene_column, condition_column, is_rna, allele_type, expression in
         data['expression'] = expression
         data['evidence'] = 'ECO:0001563' if 'growth' in sheet_name else 'ECO:0005004'
 
-        data.rename(columns={condition_column: 'condition', 'median_fitness_log2': 'score'}, inplace=True)
+        data.rename(columns={condition_column: 'condition', 'median_fitness_log2': 'severity'}, inplace=True)
+        data['severity'] = data['severity'].apply(lambda x: 'fitness_log2({:1.3})'.format(x))
         data['file'] = data_file
         data['sheet_name'] = sheet_name
         all_data.append(data)
 out_data = pandas.concat(all_data)
-out_data['score_units'] = 'median_fitness_log2'
 out_data.to_csv('results/pombase_intermediate_dataset.tsv', index=False, sep='\t')

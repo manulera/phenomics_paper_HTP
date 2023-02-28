@@ -1,6 +1,6 @@
 import pandas
 
-old_mappings = pandas.read_csv('results/full_mappings_old.tsv', sep='\t', na_filter=False)
+mappings = pandas.read_csv('results/full_mappings_old.tsv', sep='\t', na_filter=False)
 fyeco2chebi_mappings = pandas.read_csv('results/fyeco2chebi_mappings.tsv', sep='\t', na_filter=False)
 chebi2fyeco_dict = dict()
 
@@ -8,10 +8,6 @@ for i, row in fyeco2chebi_mappings.iterrows():
     chebi2fyeco_dict[row['chebi_term']] = row['fyeco_term']
 
 
-# old_mappings['chemical_or_agent'] = old_mappings['chemical_or_agent'].apply(str.split,args=['|'])
-# old_mappings['condition_dose'] = old_mappings['condition_dose'].apply(str.split,args=['|'])
-
-# old_mappings = old_mappings.explode(column=['chemical_or_agent', 'condition_dose'])
 
 def formatting_function(row):
     fyeco_terms = row['fyeco_terms']
@@ -28,9 +24,11 @@ def formatting_function(row):
     else:
         fyeco_terms = fyeco_terms + f',FYECO:0000005({row["temperature"]})'
 
+    if 'FYECO:0000315' in fyeco_terms:
+        fyeco_terms = fyeco_terms.replace('FYECO:0000315', f'FYECO:0000315({row["condition_dose"]})')
     return fyeco_terms
 
-
-old_mappings['fyeco_terms'] = old_mappings.apply(formatting_function, axis=1)
-old_mappings.to_csv('a.tsv', sep='\t', index=False)
+mappings['fyeco_terms'] = mappings.apply(formatting_function, axis=1)
+mappings.drop(columns=['chemical_or_agent', 'condition_dose', 'temperature'], inplace=True)
+mappings.to_csv('results/full_mappings.tsv', sep='\t', index=False)
 
