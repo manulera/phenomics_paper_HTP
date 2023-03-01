@@ -1,4 +1,5 @@
 import pandas
+import re
 
 def make_synonym_dict(data):
     synonyms = dict()
@@ -80,8 +81,49 @@ data.loc[data.current_coordinates==data.coordinates, 'current_coordinates'] = ''
 data.loc[data.synonym_coordinates==data.coordinates, 'synonym_coordinates'] = ''
 
 output_data = data[['systematic_id', 'systematic_id_missing', 'current_synonym', 'synonym_already_present', 'chromosome', 'coordinates', 'current_coordinates', 'synonym_coordinates', 'allele_variant']]
-output_data.to_csv('results/ncRNA_table.tsv', sep='\t', index=False)
-output_data[output_data.systematic_id_missing == True].to_csv('results/ncRNA_table_missing.tsv', sep='\t', index=False)
 output_data.fillna('', inplace=True)
-output_data[output_data.current_coordinates != ''].to_csv('results/ncRNA_table_differing_coordinates.tsv', sep='\t', index=False)
 
+missing_ids = output_data.systematic_id_missing == True
+synonym_doesnt_match = missing_ids & (output_data.synonym_coordinates != '')
+changed_coordinates = output_data.current_coordinates != ''
+
+output_data[missing_ids].to_csv('results/ncRNA_table_missing.tsv', sep='\t', index=False)
+output_data[changed_coordinates].to_csv('results/ncRNA_table_differing_coordinates.tsv', sep='\t', index=False)
+output_data.to_csv('results/ncRNA_table.tsv', sep='\t', index=False)
+
+fixed_synonyms = output_data[synonym_doesnt_match].copy()
+fixed_coordinates = output_data[changed_coordinates].copy()
+def get_coords(input_str):
+    match = re.search(r'(\d+)\.\.(\d+)', input_str)
+    start, end = match.groups()
+    strand = -1 if 'complement' in input_str else 1
+    return int(start), int(end), strand
+
+def format_number(num):
+    if int(num)>0:
+        return str(num)
+    else:
+        return f'({num})'
+
+def format_allele_description(r, current_column, study_column):
+    start_current, end_current, strand_current = get_coords(r[current_column])
+    start_study, end_study, strand_study = get_coords(r[study_column])
+    if strand_study == 1:
+        return format_number(start_study-start_current) + '-' + format_number(end_study-start_current)
+    else:
+        return format_number(end_current-end_study) + '-' + format_number(end_current-start_study)
+
+
+fixed_synonyms['Allele description'] = fixed_synonyms.apply(format_allele_description, axis=1, args=['synonym_coordinates', 'coordinates'])
+fixed_synonyms.rename(columns={'current_synonym': 'corresponding_systematic_id'}, inplace=True)
+fixed_synonyms['Allele synonym'] = fixed_synonyms['systematic_id'].apply(lambda x : x + 'delta')
+
+fixed_coordinates['Allele description'] = fixed_coordinates.apply(format_allele_description, axis=1, args=['current_coordinates', 'coordinates'])
+fixed_coordinates['corresponding_systematic_id'] = fixed_coordinates['systematic_id']
+fixed_coordinates['Allele synonym'] = ''
+
+columns2keep = ['systematic_id', 'corresponding_systematic_id', 'Allele description', 'Allele synonym', 'Allele type']
+
+fixed = pandas.concat([fixed_coordinates, fixed_synonyms])
+fixed['Allele type'] = 'partial_nucleotide_deletion'
+fixed[columns2keep].to_csv('results/fixes_alleles.tsv', sep='\t', index=False)

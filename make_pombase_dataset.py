@@ -19,8 +19,24 @@ merged_data.drop(columns=['sensitive','resistance',], inplace=True)
 
 merged_data.to_csv('results/analysis_dataset.tsv', sep='\t', index=False, float_format='%.3f')
 
-ncRNA_table = pandas.read_csv('results/ncRNA_table.tsv',delimiter='\t', na_filter=False)[['systematic_id', 'allele_variant']]
-merged_data = merged_data.merge(ncRNA_table, on='systematic_id', how='left')
+ncRNA_table = pandas.read_csv('results/ncRNA_table.tsv',delimiter='\t', na_filter=False)
+ncRNA_table['expression'] = 'null'
+ncRNA_table2 = ncRNA_table.copy()
+ncRNA_table2['expression'] = 'overexpression'
+ncRNA_table2['allele_variant'] = ''
+ncRNA_table = pandas.concat([ncRNA_table, ncRNA_table2])
+print(ncRNA_table)
+logi = ncRNA_table.expression == 'overexpression'
+
+def format_overexpression(r):
+    chr = r['chromosome'] * 'I'
+    coord = r['coordinates']
+    return f'{chr}:{coord}'
+
+ncRNA_table.loc[logi, 'allele_variant'] = ncRNA_table.loc[logi, :].apply(format_overexpression, axis=1)
+# Set value for deletion alleles
+merged_data = merged_data.merge(ncRNA_table[['systematic_id', 'expression', 'allele_variant']], on=['systematic_id', 'expression'], how='left')
+# Set value for overexpression alleles
 
 merged_data.drop(inplace=True, columns=[
     'condition',
@@ -75,6 +91,37 @@ column_order = [
     'Ploidy',
     'Allele Variant'
 ]
+
+# Fix rows of missing systematic ids
+allele_fixes = pandas.concat([
+    pandas.read_csv('results/fixes_alleles.tsv', delimiter='\t', na_filter=False),
+    pandas.read_csv('data/manual_fixes_alleles.tsv', delimiter='\t', na_filter=False)])
+
+allele_fixes.rename(columns= {'systematic_id': 'Gene systematic ID'}, inplace=True)
+allele_fixes['Expression'] = 'null'
+
+merged_data = merged_data.merge(allele_fixes, on=['Gene systematic ID', 'Expression'], how='left')
+merged_data.fillna('', inplace=True)
+replacing_cols = ['Allele description', 'Allele synonym', 'Allele type']
+for col in replacing_cols:
+    merged_data[col] = merged_data.apply(lambda r: r[col+'_y'] if r[col+'_y'] else r[col+'_x'], axis=1)
+
+merged_data.loc[merged_data.corresponding_systematic_id != '', 'Gene systematic ID'] = merged_data.corresponding_systematic_id[merged_data.corresponding_systematic_id != '']
+merged_data.drop(columns='corresponding_systematic_id', inplace=True)
+
+overexpressed_fragments = (merged_data['Expression'] == 'overexpression') & merged_data['Gene systematic ID'].isin(set(allele_fixes['Gene systematic ID']))
+merged_data.loc[overexpressed_fragments, 'Allele type'] = 'other'
+merged_data.loc[overexpressed_fragments, 'Allele synonym'] = merged_data.loc[overexpressed_fragments, 'Gene systematic ID'].apply(lambda x: f'{x}OE')
+
+# Finally replace systematic ids by synonyms
+missing_rnas = pandas.read_csv('results/ncRNA_table_missing.tsv', delimiter='\t', na_filter=False),
+synonym_dict = dict()
+for i, row in missing_rnas.iterrows():
+    if row['current_synonym'] != '':
+        synonym_dict[row['systematic_id']] = row['current_synonym']
+synonym_dict['SPNCRNA.01'] = 'SPAC31G5.10'
+
+# merged_data['systematic_id'] = 
 
 merged_data = merged_data.loc[:,column_order]
 merged_data.to_csv('results/pombase_dataset.tsv', sep='\t', index=False, float_format='%.3f')
