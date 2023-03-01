@@ -25,7 +25,6 @@ ncRNA_table2 = ncRNA_table.copy()
 ncRNA_table2['expression'] = 'overexpression'
 ncRNA_table2['allele_variant'] = ''
 ncRNA_table = pandas.concat([ncRNA_table, ncRNA_table2])
-print(ncRNA_table)
 logi = ncRNA_table.expression == 'overexpression'
 
 def format_overexpression(r):
@@ -51,7 +50,7 @@ merged_data.rename(inplace=True, columns={
     'fyeco_terms': 'Condition',
     'fypo_id': 'FYPO ID',
     'severity': 'Severity',
-    'allele_variant': 'Allele Variant'
+    'allele_variant': 'Allele variant'
 })
 merged_data['Allele description'] = merged_data['Allele type']
 merged_data['Parental strain'] = '972 h-'
@@ -89,7 +88,7 @@ column_order = [
     'taxon',
     'Date',
     'Ploidy',
-    'Allele Variant'
+    'Allele variant'
 ]
 
 # Fix rows of missing systematic ids
@@ -111,17 +110,18 @@ merged_data.drop(columns='corresponding_systematic_id', inplace=True)
 
 overexpressed_fragments = (merged_data['Expression'] == 'overexpression') & merged_data['Gene systematic ID'].isin(set(allele_fixes['Gene systematic ID']))
 merged_data.loc[overexpressed_fragments, 'Allele type'] = 'other'
+merged_data.loc[overexpressed_fragments, 'Allele description'] = merged_data.loc[overexpressed_fragments, 'Allele variant']
 merged_data.loc[overexpressed_fragments, 'Allele synonym'] = merged_data.loc[overexpressed_fragments, 'Gene systematic ID'].apply(lambda x: f'{x}OE')
 
 # Finally replace systematic ids by synonyms
-missing_rnas = pandas.read_csv('results/ncRNA_table_missing.tsv', delimiter='\t', na_filter=False),
+missing_rnas = pandas.read_csv('results/ncRNA_table_missing.tsv', delimiter='\t', na_filter=False)
 synonym_dict = dict()
 for i, row in missing_rnas.iterrows():
     if row['current_synonym'] != '':
         synonym_dict[row['systematic_id']] = row['current_synonym']
 synonym_dict['SPNCRNA.01'] = 'SPAC31G5.10'
 
-# merged_data['systematic_id'] = 
+merged_data['Gene systematic ID'] = merged_data['Gene systematic ID'].apply(lambda x: synonym_dict[x] if x in synonym_dict else x)
 
 merged_data = merged_data.loc[:,column_order]
 merged_data.to_csv('results/pombase_dataset.tsv', sep='\t', index=False, float_format='%.3f')
