@@ -126,4 +126,8 @@ synonym_dict['SPNCRNA.7'] = 'SPNCRNA.07'
 merged_data['Gene systematic ID'] = merged_data['Gene systematic ID'].apply(lambda x: synonym_dict[x] if x in synonym_dict else x)
 
 merged_data = merged_data.loc[:,column_order]
-merged_data.to_csv('results/pombase_dataset.tsv', sep='\t', index=False, float_format='%.3f')
+
+with open('results/pombase_dataset.tsv', 'w') as out:
+    out.write('#Submitter_name: Manuel Lera-Ramirez\n#Submitter_ORCID: 0000-0002-8666-9746\n#Submitter_status: PomBase\n')
+    merged_data.to_csv(out, sep='\t', index=False, float_format='%.3f')
+

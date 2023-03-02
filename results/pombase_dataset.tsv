@@ -1,3 +1,6 @@
+#Submitter_name: Manuel Lera-Ramirez
+#Submitter_ORCID: 0000-0002-8666-9746
+#Submitter_status: PomBase
 Gene systematic ID	FYPO ID	Allele description	Expression	Parental strain	Background strain name	Background genotype description	Gene name	Allele name	Allele synonym	Allele type	Evidence	Condition	Penetrance	Severity	Extension	Reference	taxon	Date	Ploidy	Allele variant
 SPNCRNA.1343	FYPO:0001355	deletion	null	972 h-						deletion	ECO:0001563	FYECO:0000137,FYECO:0000005(32)		fitness_log2(-0.0901)		PMID:34984977	4896	2023-02-23	haploid	II:g.354031_355573del
 SPNCRNA.941	FYPO:0001355	145-922	null	972 h-					SPNCRNA.236delta	partial_nucleotide_deletion	ECO:0001563	FYECO:0000137,FYECO:0000005(32)		fitness_log2(-0.137)		PMID:34984977	4896	2023-02-23	haploid	I:g.3846893_3847670del
