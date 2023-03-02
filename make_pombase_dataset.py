@@ -120,6 +120,7 @@ for i, row in missing_rnas.iterrows():
     if row['current_synonym'] != '':
         synonym_dict[row['systematic_id']] = row['current_synonym']
 synonym_dict['SPNCRNA.01'] = 'SPAC31G5.10'
+synonym_dict['SPNCRNA.7'] = 'SPNCRNA.07'
 
 merged_data['Gene systematic ID'] = merged_data['Gene systematic ID'].apply(lambda x: synonym_dict[x] if x in synonym_dict else x)
 
