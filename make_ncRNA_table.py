@@ -44,8 +44,8 @@ data.rename(inplace=True, columns={
 # Missing one
 data.loc[data.index[-1], 'systematic_id'] = 'SPNCRNA.5041'
 # Keep only relevant columns
-data = data.loc[:, ['systematic_id', 'chromosome', 'coordinates', 'allele_variant']].copy()
-
+data = data.loc[:, ['systematic_id', 'chromosome', 'coordinates', 'allele_variant', 'h90']].copy()
+data['h90'] = data['h90'].astype(bool)
 # Load synonym dict
 gene_ids_data = pandas.read_csv('data/gene_IDs_names.tsv',sep='\t',na_filter=False, names=['systematic_id', 'primary_name', 'synonyms'])
 synonym_dict = make_synonym_dict(gene_ids_data)
@@ -80,7 +80,7 @@ data = data.merge(current_coordinates[['current_synonym', 'synonym_coordinates']
 data.loc[data.current_coordinates==data.coordinates, 'current_coordinates'] = ''
 data.loc[data.synonym_coordinates==data.coordinates, 'synonym_coordinates'] = ''
 
-output_data = data[['systematic_id', 'systematic_id_missing', 'current_synonym', 'synonym_already_present', 'chromosome', 'coordinates', 'current_coordinates', 'synonym_coordinates', 'allele_variant']]
+output_data = data[['systematic_id', 'systematic_id_missing', 'current_synonym', 'synonym_already_present', 'chromosome', 'coordinates', 'current_coordinates', 'synonym_coordinates', 'allele_variant', 'h90']]
 output_data.fillna('', inplace=True)
 
 missing_ids = output_data.systematic_id_missing == True

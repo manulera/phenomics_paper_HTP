@@ -13,11 +13,16 @@ def formatting_function(row):
     fyeco_terms = row['fyeco_terms']
     for chebi, dose in  zip(row['chemical_or_agent'].split('|'), row['condition_dose'].split('|')):
         if ('CHEBI' in chebi):
-            fyeco_term2replace = chebi2fyeco_dict[chebi]
-            if chebi in chebi2fyeco_dict:
-                fyeco_terms = fyeco_terms.replace(fyeco_term2replace, f'{fyeco_term2replace}({dose})')
+            if chebi == 'CHEBI:17234':
+                glucose_terms = ['FYECO:0000181', 'FYECO:0000081']
+                if not any(t in fyeco_terms for t in glucose_terms):
+                    fyeco_terms = fyeco_terms + (f',FYECO:0000081({dose})' if ('0.1' in dose) else f',FYECO:0000181({dose})')
+                    continue
+                for fyeco_term2replace in glucose_terms:
+                    fyeco_terms = fyeco_terms.replace(fyeco_term2replace, f'{fyeco_term2replace}({dose})')
             else:
-                fyeco_terms = fyeco_terms + f',{fyeco_term2replace}({dose})'
+                fyeco_term2replace = chebi2fyeco_dict[chebi]
+                fyeco_terms = fyeco_terms.replace(fyeco_term2replace, f'{fyeco_term2replace}({dose})')
 
     if 'FYECO:0000004' in fyeco_terms:
         fyeco_terms = fyeco_terms.replace('FYECO:0000004', f'FYECO:0000004({row["temperature"]})')

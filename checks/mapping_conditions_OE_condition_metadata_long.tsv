@@ -8,9 +8,9 @@ Iso	FYECO:0000278	FYECO:0000126	glucose MM, isoleucine nitrogen source	glucose M
 Met	FYECO:0000417	FYECO:0000126	glucose MM, methionine nitrogen source	glucose MM
 Phe	FYECO:0000296	FYECO:0000126	glucose MM, phenylalanine nitrogen source	glucose MM
 Pro	FYECO:0000246	FYECO:0000126	glucose MM, proline nitrogen source	glucose MM
-Gluc0.5	dose			
-Gluc2	dose			
-Gluc3	dose			
+Gluc0.5	FYECO:0000181		+ glucose	
+Gluc2	FYECO:0000181		+ glucose	
+Gluc3	FYECO:0000181		+ glucose	
 Gly3	FYECO:0000072	FYECO:0000126	glycerol MM with trace glucose	glucose MM
 Gal2	FYECO:0000289	FYECO:0000126	galactose MM	glucose MM
 Temp25C	temperature			

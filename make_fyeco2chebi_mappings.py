@@ -24,8 +24,12 @@ mappings = mappings.loc[(mappings.fyeco_terms != '') & ~mappings.fyeco_terms.str
 manual_mappings = pandas.DataFrame([
     ['FYECO:0000334', 'CHEBI:87192'],
     ['FYECO:0000181', 'CHEBI:17234'],
+    ['FYECO:0000081', 'CHEBI:17234']
 ], columns=['fyeco_terms', 'chemical_or_agent'])
 mappings = pandas.concat([mappings, manual_mappings])
+
+# Delete link between stationary phase and glucose
+mappings = mappings[mappings.fyeco_terms!='FYECO:0000123'].copy()
 
 mappings['fyeco_label'] = mappings.fyeco_terms.apply(lambda x: fyeco_ontology[x].name)
 mappings['chebi_label'] = mappings.chemical_or_agent.apply(lambda x: chebi_dict[x])

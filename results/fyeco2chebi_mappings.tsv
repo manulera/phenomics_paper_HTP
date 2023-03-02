@@ -31,7 +31,6 @@ FYECO:0000211	CHEBI:25255	+ MMS	methyl methanesulfonate
 FYECO:0000268	CHEBI:46024	+ trichostatin A	trichostatin A
 FYECO:0000412	CHEBI:29699	+ tunicamycin	tunicamycin
 FYECO:0000414	CHEBI:18222	xylose YE	xylose
-FYECO:0000123	CHEBI:17234	growth to stationary phase	glucose
 FYECO:0000415	CHEBI:83629	+ tea tree oil	tea tree oil
 FYECO:0000246	CHEBI:17203	glucose MM, proline nitrogen source	L-proline
 FYECO:0000409	CHEBI:30351	+ 2,2'-dipyridyl	2,2'-bipyridine
@@ -50,7 +49,8 @@ FYECO:0000416	CHEBI:17561	glucose MM, cysteine nitrogen source	L-cysteine
 FYECO:0000278	CHEBI:17191	glucose MM, isoleucine nitrogen source	L-isoleucine
 FYECO:0000417	CHEBI:16643	glucose MM, methionine nitrogen source	L-methionine
 FYECO:0000296	CHEBI:17295	glucose MM, phenylalanine nitrogen source	L-phenylalanine
+FYECO:0000181	CHEBI:17234	+ glucose	glucose
 FYECO:0000072	CHEBI:17754	glycerol MM with trace glucose	glycerol
 FYECO:0000289	CHEBI:12936	galactose MM	D-galactose
 FYECO:0000334	CHEBI:87192	+ phloxine B	phloxine B
-FYECO:0000181	CHEBI:17234	+ glucose	glucose
+FYECO:0000081	CHEBI:17234	low glucose YES	glucose

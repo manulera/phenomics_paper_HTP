@@ -147,7 +147,7 @@ YESphlox-Temp25Gluc0.1	FYPO:0004162	FYPO:0004163	loss of viability upon glucose 
 YESphlox-Temp25Gluc0.5	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334	CHEBI:17234	0.5%	25	null
 YESphlox-Temp25Gluc1	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334	CHEBI:17234	1%	25	null
 YESphlox-Temp25Gluc3	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334	CHEBI:17234	3%	25	null
-YESphlox-Xylose2Gluc0.1	FYPO:0009014	FYPO:0009016	decreased vegetative cell population viability on xylose carbon source	increased cell population viability on xylose carbon source	FYECO:0000081,FYECO:0000334,FYECO:0000414	CHEBI:18222		32	null
+YESphlox-Xylose2Gluc0.1	FYPO:0009014	FYPO:0009016	decreased vegetative cell population viability on xylose carbon source	increased cell population viability on xylose carbon source	FYECO:0000081,FYECO:0000334,FYECO:0000414	CHEBI:17234|CHEBI:18222	0.1%|2%	32	null
 EMM_NH4Cl	FYPO:0000249	FYPO:0009051	decreased cell population growth on ammonia nitrogen source	increased cell population growth on ammonium nitrogen source	FYECO:0000254	CHEBI:28938	5 g/L	32	overexpression
 EMM_Glu	FYPO:0009053	FYPO:0009052	decreased cell population growth on glutamate nitrogen source	increased cell population growth on glutamate nitrogen source	FYECO:0000263	CHEBI:14321	20 mM	32	overexpression
 EMM_Arg	FYPO:0009009	FYPO:0009029	decreased cell population growth on arginine nitrogen source	increased cell population growth on arginine nitrogen source	FYECO:0000331	CHEBI:16467	21 mM	32	overexpression
@@ -156,9 +156,9 @@ EMM_Iso	FYPO:0009022	FYPO:0009025	decreased cell population growth on isoleucine
 EMM_Met	FYPO:0009023	FYPO:0009026	decreased cell population growth on methionine nitrogen source	increased cell population growth on methionine nitrogen source	FYECO:0000417	CHEBI:16643	24 mM	32	overexpression
 EMM_Phe	FYPO:0007726	FYPO:0009027	decreased cell population growth on phenylalanine nitrogen source	increased cell population growth on phenylalanine nitrogen source	FYECO:0000296	CHEBI:17295	25 mM	32	overexpression
 EMM_Pro	FYPO:0000250	FYPO:0009028	decreased cell population growth on proline nitrogen source	increased cell population growth on proline nitrogen source	FYECO:0000246	CHEBI:17203	26 mM	32	overexpression
-EMM_Gluc0.5	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126	CHEBI:17234	0.5%	32	overexpression
-EMM_Gluc2	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126	CHEBI:17234	2%	32	overexpression
-EMM_Gluc3	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126	CHEBI:17234	3%	32	overexpression
+EMM_Gluc0.5	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126,FYECO:0000181	CHEBI:17234	0.5%	32	overexpression
+EMM_Gluc2	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126,FYECO:0000181	CHEBI:17234	2%	32	overexpression
+EMM_Gluc3	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126,FYECO:0000181	CHEBI:17234	3%	32	overexpression
 EMM_Gly3	FYPO:0000684	FYPO:0004167	decreased cell population growth on glycerol carbon source	increased cell population growth on glycerol carbon source	FYECO:0000072	CHEBI:17754	3% (w/v)	32	overexpression
 EMM_Gal2	FYPO:0000251	FYPO:0005261	decreased cell population growth on galactose carbon source	increased cell population growth on galactose carbon source	FYECO:0000289	CHEBI:12936	2% (w/v)	32	overexpression
 Temp25C	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth				25	overexpression
@@ -196,13 +196,13 @@ Rap100ng	FYPO:0000111	FYPO:0000077	sensitive to rapamycin	resistance to rapamyci
 Rap1ug	FYPO:0000111	FYPO:0000077	sensitive to rapamycin	resistance to rapamycin	FYECO:0000242	CHEBI:9168	1 µg/mL	32	overexpression
 Torin5uM	FYPO:0002701	FYPO:0005193	sensitive to torin1	resistance to torin1	FYECO:0000390	CHEBI:84327	5 µM	32	overexpression
 YESphlox-Gluc0.1stationary7	FYPO:0005231	FYPO:0009054	loss of viability in stationary phase upon glucose starvation	increased viabilitiy in stationary phase upon glucose starvation	FYECO:0000081,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.1%	32	null
-YESphlox-Gluc0.5stationary7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.5%	32	null
+YESphlox-Gluc0.5stationary7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123,FYECO:0000181	CHEBI:17234	0.5%	32	null
 YESphlox-NaCl150MMS0.005	FYPO:0007925	FYPO:0009044	sensitive to sodium chloride and methyl methanesulfonate	resistance to sodium chloride and methyl methanesulfonate	FYECO:0000137,FYECO:0000334,FYECO:0000166,FYECO:0000211	CHEBI:26710|CHEBI:25255	50mM|0.005%	32	null
 YESphlox-NaCl150	FYPO:0005889	FYPO:0005968	sensitive to sodium chloride	resistance to sodium chloride	FYECO:0000137,FYECO:0000334,FYECO:0000166	CHEBI:26710	150mM	32	null
 YESphlox-Gluc0.1Aged7	FYPO:0005231	FYPO:0001309	loss of viability in stationary phase upon glucose starvation	increased viability in stationary phase	FYECO:0000081,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.1%	32	null
-YESphlox-Gluc0.5Aged7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123	CHEBI:17234	0.5%	32	null
-YESphlox-Gluc1Aged7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123	CHEBI:17234	1%	32	null
-YESphlox-Aged7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123			32	null
-YESphlox-Temp25	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334			25	null
+YESphlox-Gluc0.5Aged7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123,FYECO:0000181	CHEBI:17234	0.5%	32	null
+YESphlox-Gluc1Aged7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123,FYECO:0000181	CHEBI:17234	1%	32	null
+YESphlox-Aged7	FYPO:0000245	FYPO:0001309	loss of viability in stationary phase	increased viability in stationary phase	FYECO:0000137,FYECO:0000334,FYECO:0000123,FYECO:0000181	CHEBI:17234	3%	32	null
+YESphlox-Temp25	FYPO:0009007	FYPO:0009008	decreased vegetative cell population viability	increased vegetative cell population viability	FYECO:0000137,FYECO:0000334,FYECO:0000181	CHEBI:17234	3%	25	null
 microscopy_binucleate	FYPO:0009020	FYPO:0009019	decreased vegetative cell population binucleate index	increased vegetative cell population binucleate index	FYECO:0000137			32	null
 microscopy_length	FYPO:0000648	FYPO:0006634	viable small vegetative cell	increased vegetative cell length	FYECO:0000137			32	null

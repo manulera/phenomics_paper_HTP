@@ -24,6 +24,7 @@ ncRNA_table['expression'] = 'null'
 ncRNA_table2 = ncRNA_table.copy()
 ncRNA_table2['expression'] = 'overexpression'
 ncRNA_table2['allele_variant'] = ''
+ncRNA_table2['h90'] = False
 ncRNA_table = pandas.concat([ncRNA_table, ncRNA_table2])
 logi = ncRNA_table.expression == 'overexpression'
 
@@ -34,7 +35,7 @@ def format_overexpression(r):
 
 ncRNA_table.loc[logi, 'allele_variant'] = ncRNA_table.loc[logi, :].apply(format_overexpression, axis=1)
 # Set value for deletion alleles
-merged_data = merged_data.merge(ncRNA_table[['systematic_id', 'expression', 'allele_variant']], on=['systematic_id', 'expression'], how='left')
+merged_data = merged_data.merge(ncRNA_table[['systematic_id', 'expression', 'allele_variant', 'h90']], on=['systematic_id', 'expression'], how='left')
 # Set value for overexpression alleles
 
 merged_data.drop(inplace=True, columns=[
@@ -54,7 +55,7 @@ merged_data.rename(inplace=True, columns={
 })
 merged_data['Allele description'] = merged_data['Allele type']
 merged_data['Parental strain'] = '972 h-'
-merged_data.loc[merged_data['Gene systematic ID'].str.startswith('SPNCRNA'), 'Parental strain'] = '972 h- or 968 h90'
+merged_data.loc[merged_data['Gene systematic ID'].str.startswith('SPNCRNA') & merged_data['h90'], 'Parental strain'] = '968 h90'
 merged_data['Background strain name'] = ''
 merged_data['Background genotype description'] = ''
 merged_data['Gene name'] = ''

@@ -34,17 +34,23 @@
   * id: FYECO:0000126
     * name: glucose MM
     * def: Experiments were performed in medium containing glucose (typically <2% w/v), salts, and water, and may be supplemented with additional amino acids.
-  * dose
+  * id: FYECO:0000181
+    * name: + glucose
+    * def: An experimental condition in which glucose was added to the medium or assay buffer in excess compared to standard medium or assay buffers.
 * EMM_Gluc2
   * id: FYECO:0000126
     * name: glucose MM
     * def: Experiments were performed in medium containing glucose (typically <2% w/v), salts, and water, and may be supplemented with additional amino acids.
-  * dose
+  * id: FYECO:0000181
+    * name: + glucose
+    * def: An experimental condition in which glucose was added to the medium or assay buffer in excess compared to standard medium or assay buffers.
 * EMM_Gluc3
   * id: FYECO:0000126
     * name: glucose MM
     * def: Experiments were performed in medium containing glucose (typically <2% w/v), salts, and water, and may be supplemented with additional amino acids.
-  * dose
+  * id: FYECO:0000181
+    * name: + glucose
+    * def: An experimental condition in which glucose was added to the medium or assay buffer in excess compared to standard medium or assay buffers.
 * EMM_Gly3
   * id: FYECO:0000072
     * name: glycerol MM with trace glucose
