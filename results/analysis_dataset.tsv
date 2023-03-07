@@ -4737,7 +4737,7 @@ VPA5mM	SPNCRNA.30	True	fitness_log2(0.264)	wild type	overexpression	ECO:0001563	
 EMM_Gal2	SPNCRNA.31	True	fitness_log2(0.217)	wild type	overexpression	ECO:0001563	FYECO:0000289(2% (w/v)),FYECO:0000005(32)	FYPO:0005261
 EMM_Pro	SPNCRNA.31	True	fitness_log2(0.12)	wild type	overexpression	ECO:0001563	FYECO:0000246(26 mM),FYECO:0000005(32)	FYPO:0009028
 H2O2_3mM	SPNCRNA.31	True	fitness_log2(0.148)	wild type	overexpression	ECO:0001563	FYECO:0000078(3 mM),FYECO:0000005(32)	FYPO:0001103
-Temp32C	SPNCRNA.31	False	fitness_log2(-0.11)	wild type	overexpression	ECO:0001563	,FYECO:0000005(32)	FYPO:0001355
+Temp32C	SPNCRNA.31	False	fitness_log2(-0.11)	wild type	overexpression	ECO:0001563	FYECO:0000005(32)	FYPO:0001355
 VPA5mM	SPNCRNA.31	True	fitness_log2(0.289)	wild type	overexpression	ECO:0001563	FYECO:0000413(5 mM),FYECO:0000005(32)	FYPO:0007808
 Can60ug	SPNCRNA.335	False	fitness_log2(-0.144)	wild type	overexpression	ECO:0001563	FYECO:0000408(60 µg/ml),FYECO:0000005(32)	FYPO:0000099
 Diam2mM	SPNCRNA.335	False	fitness_log2(-0.524)	wild type	overexpression	ECO:0001563	FYECO:0000364(2 mM),FYECO:0000005(32)	FYPO:0000799
@@ -5007,7 +5007,7 @@ KCl1M	SPNCRNA.352	False	fitness_log2(-0.316)	wild type	overexpression	ECO:000156
 TBH1mM	SPNCRNA.37	False	fitness_log2(-0.0138)	wild type	overexpression	ECO:0001563	FYECO:0000304(1 mM),FYECO:0000005(32)	FYPO:0000797
 3AT10mM	SPNCRNA.377	True	fitness_log2(0.165)	wild type	overexpression	ECO:0001563	FYECO:0000251(10 mM),FYECO:0000005(32)	FYPO:0009030
 KCl1M	SPNCRNA.377	False	fitness_log2(-0.135)	wild type	overexpression	ECO:0001563	FYECO:0000207(1 M),FYECO:0000005(32)	FYPO:0001214
-Temp25C	SPNCRNA.382	True	fitness_log2(0.066)	wild type	overexpression	ECO:0001563	,FYECO:0000005(25)	FYPO:0004557
+Temp25C	SPNCRNA.382	True	fitness_log2(0.066)	wild type	overexpression	ECO:0001563	FYECO:0000005(25)	FYPO:0004557
 Rap1ug	SPNCRNA.388	False	fitness_log2(-0.0672)	wild type	overexpression	ECO:0001563	FYECO:0000242(1 µg/mL),FYECO:0000005(32)	FYPO:0000111
 KCl1M	SPNCRNA.399	False	fitness_log2(-0.138)	wild type	overexpression	ECO:0001563	FYECO:0000207(1 M),FYECO:0000005(32)	FYPO:0001214
 KCl1M	SPNCRNA.410	False	fitness_log2(-0.119)	wild type	overexpression	ECO:0001563	FYECO:0000207(1 M),FYECO:0000005(32)	FYPO:0001214

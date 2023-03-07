@@ -27,7 +27,7 @@ def formatting_function(row):
     if 'FYECO:0000004' in fyeco_terms:
         fyeco_terms = fyeco_terms.replace('FYECO:0000004', f'FYECO:0000004({row["temperature"]})')
     else:
-        fyeco_terms = fyeco_terms + f',FYECO:0000005({row["temperature"]})'
+        fyeco_terms = fyeco_terms + f',FYECO:0000005({row["temperature"]})' if fyeco_terms != '' else f'FYECO:0000005({row["temperature"]})'
 
     if 'FYECO:0000315' in fyeco_terms:
         fyeco_terms = fyeco_terms.replace('FYECO:0000315', f'FYECO:0000315({row["condition_dose"]})')

@@ -161,8 +161,8 @@ EMM_Gluc2	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	
 EMM_Gluc3	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000126,FYECO:0000181(3%),FYECO:0000005(32)	overexpression
 EMM_Gly3	FYPO:0000684	FYPO:0004167	decreased cell population growth on glycerol carbon source	increased cell population growth on glycerol carbon source	FYECO:0000072(3% (w/v)),FYECO:0000005(32)	overexpression
 EMM_Gal2	FYPO:0000251	FYPO:0005261	decreased cell population growth on galactose carbon source	increased cell population growth on galactose carbon source	FYECO:0000289(2% (w/v)),FYECO:0000005(32)	overexpression
-Temp25C	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	,FYECO:0000005(25)	overexpression
-Temp32C	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	,FYECO:0000005(32)	overexpression
+Temp25C	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000005(25)	overexpression
+Temp32C	FYPO:0001355	FYPO:0004557	decreased vegetative cell population growth	increased vegetative cell population growth	FYECO:0000005(32)	overexpression
 Temp37C	FYPO:0000082	FYPO:0005258	decreased cell population growth at high temperature	increased cell population growth at high temperature	FYECO:0000004(37)	overexpression
 H2O2_0.5mM	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000078(500 µM),FYECO:0000005(32)	overexpression
 H2O2_1mM	FYPO:0000087	FYPO:0001103	sensitive to hydrogen peroxide	resistance to hydrogen peroxide	FYECO:0000078(1 mM),FYECO:0000005(32)	overexpression
