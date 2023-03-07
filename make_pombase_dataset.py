@@ -98,6 +98,8 @@ allele_fixes = pandas.concat([
     pandas.read_csv('data/manual_fixes_alleles.tsv', delimiter='\t', na_filter=False)])
 
 allele_fixes.rename(columns= {'systematic_id': 'Gene systematic ID'}, inplace=True)
+allele_fixes2 = allele_fixes.copy()
+
 allele_fixes['Expression'] = 'null'
 
 merged_data = merged_data.merge(allele_fixes, on=['Gene systematic ID', 'Expression'], how='left')
@@ -105,6 +107,7 @@ merged_data.fillna('', inplace=True)
 replacing_cols = ['Allele description', 'Allele synonym', 'Allele type']
 for col in replacing_cols:
     merged_data[col] = merged_data.apply(lambda r: r[col+'_y'] if r[col+'_y'] else r[col+'_x'], axis=1)
+
 
 merged_data.loc[merged_data.corresponding_systematic_id != '', 'Gene systematic ID'] = merged_data.corresponding_systematic_id[merged_data.corresponding_systematic_id != '']
 merged_data.drop(columns='corresponding_systematic_id', inplace=True)
@@ -123,7 +126,23 @@ for i, row in missing_rnas.iterrows():
 synonym_dict['SPNCRNA.01'] = 'SPAC31G5.10'
 synonym_dict['SPNCRNA.7'] = 'SPNCRNA.07'
 
+# And we create allele names for the overexpressed fragments that do not directly overlap
+allele_fixes2['Expression'] = 'overexpression'
+def formatting_function(r):
+    sys_id = synonym_dict[r['Gene systematic ID']] if r['Gene systematic ID'] in synonym_dict else r['Gene systematic ID']
+    return f'{sys_id}({r["Allele description"]})'
+
+allele_fixes2['Allele name'] = allele_fixes2.apply(formatting_function, axis=1)
+allele_fixes2 = allele_fixes2[['Gene systematic ID', 'Expression', 'Allele name']].copy()
+merged_data = merged_data.merge(allele_fixes2, on=['Gene systematic ID', 'Expression'], how='left')
+merged_data.fillna('', inplace=True)
+replacing_cols = ['Allele name']
+for col in replacing_cols:
+    merged_data[col] = merged_data.apply(lambda r: r[col+'_y'] if r[col+'_y'] else r[col+'_x'], axis=1)
+
 merged_data['Gene systematic ID'] = merged_data['Gene systematic ID'].apply(lambda x: synonym_dict[x] if x in synonym_dict else x)
+
+
 
 merged_data = merged_data.loc[:,column_order]
 
