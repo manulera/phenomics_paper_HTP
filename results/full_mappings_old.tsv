@@ -84,9 +84,9 @@ YESphlox-EGTA1	FYPO:0007931	FYPO:0009038	sensitive to egtazic acid	resistance to
 YESphlox-EGTA5	FYPO:0007931	FYPO:0009038	sensitive to egtazic acid	resistance to egtazic acid	FYECO:0000137,FYECO:0000334,FYECO:0000411	CHEBI:30740	5mM	32	null
 YESphlox-EtOH10	FYPO:0000842	FYPO:0001453	sensitive to ethanol during vegetative growth	resistance to ethanol	FYECO:0000137,FYECO:0000212,FYECO:0000334	CHEBI:16236	10% (v/v)	32	null
 YESphlox-Glycerol2	FYPO:0009013	FYPO:0009015	decreased vegetative cell population viability on glycerol carbon source	increased cell population viability on glycerol carbon source	FYECO:0000138,FYECO:0000334	CHEBI:17754	2% (w/v)	32	null
-YESphlox-Glycerol2MMS0.0075	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000138,FYECO:0000211,FYECO:0000334	CHEBI:25255		32	null
+YESphlox-Glycerol2MMS0.0075	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000138,FYECO:0000211,FYECO:0000334	CHEBI:17754|CHEBI:25255	2%|0.0075%	32	null
 YESphlox-Glycerol3	FYPO:0009013	FYPO:0009015	decreased vegetative cell population viability on glycerol carbon source	increased cell population viability on glycerol carbon source	FYECO:0000138,FYECO:0000334	CHEBI:17754	3% (w/v)	32	null
-YESphlox-Glycerol3MMS0.005	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000138,FYECO:0000211,FYECO:0000334	CHEBI:25255		32	null
+YESphlox-Glycerol3MMS0.005	FYPO:0000089	FYPO:0000725	sensitive to methyl methanesulfonate	resistance to methyl methanesulfonate	FYECO:0000138,FYECO:0000211,FYECO:0000334	CHEBI:17754|CHEBI:25255	3%|0.005%	32	null
 YESphlox-HU8	FYPO:0000088	FYPO:0002578	sensitive to hydroxyurea	resistance to hydroxyurea	FYECO:0000137,FYECO:0000170,FYECO:0000334	CHEBI:44423	8mM	32	null
 YESphlox-HU8MMS0.075	FYPO:0007932	FYPO:0009050	sensitive to hydroxyurea and methyl methanesulfonate	resistance to hydroxyurea and methyl methanesulfonate	FYECO:0000137,FYECO:0000170,FYECO:0000211,FYECO:0000334	CHEBI:44423|CHEBI:25255	8mM|0.075%	32	null
 YESphlox-KCl0.5	FYPO:0001214	FYPO:0009039	sensitive to potassium chloride	resistance to potassium chloride	FYECO:0000137,FYECO:0000207,FYECO:0000334	CHEBI:32588	0.5M	32	null
