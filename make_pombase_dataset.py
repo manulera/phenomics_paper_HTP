@@ -107,6 +107,7 @@ merged_data.fillna('', inplace=True)
 replacing_cols = ['Allele description', 'Allele synonym', 'Allele type']
 for col in replacing_cols:
     merged_data[col] = merged_data.apply(lambda r: r[col+'_y'] if r[col+'_y'] else r[col+'_x'], axis=1)
+    merged_data.drop(columns=[col+'_y', col+'_x'], inplace=True)
 
 
 merged_data.loc[merged_data.corresponding_systematic_id != '', 'Gene systematic ID'] = merged_data.corresponding_systematic_id[merged_data.corresponding_systematic_id != '']
