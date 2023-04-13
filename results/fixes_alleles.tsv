@@ -1,15 +1,15 @@
-systematic_id	corresponding_systematic_id	Allele description	Allele synonym	Allele type
-SPNCRNA.388	SPNCRNA.388	75-1575		partial_nucleotide_deletion
-SPNCRNA.1341	SPNCRNA.103	9-528	SPNCRNA.1341delta	partial_nucleotide_deletion
-SPNCRNA.144	SPNCRNA.627	606-995	SPNCRNA.144delta	partial_nucleotide_deletion
-SPNCRNA.145	SPNCRNA.628	732-1573	SPNCRNA.145delta	partial_nucleotide_deletion
-SPNCRNA.236	SPNCRNA.941	145-922	SPNCRNA.236delta	partial_nucleotide_deletion
-SPNCRNA.248	SPNCRNA.996	(-74)-487	SPNCRNA.248delta	partial_nucleotide_deletion
-SPNCRNA.254	SPNCRNA.1032	(-319)-746	SPNCRNA.254delta	partial_nucleotide_deletion
-SPNCRNA.289	SPNCRNA.1303	93-419	SPNCRNA.289delta	partial_nucleotide_deletion
-SPNCRNA.410	SPNCRNA.1559	365-735	SPNCRNA.410delta	partial_nucleotide_deletion
-SPNCRNA.426	SPNCRNA.1624	15-1422	SPNCRNA.426delta	partial_nucleotide_deletion
-SPNCRNA.507	SPNCRNA.808	(-7)-150	SPNCRNA.507delta	partial_nucleotide_deletion
-SPNCRNA.515	SPNCRNA.1651	(-9)-95	SPNCRNA.515delta	partial_nucleotide_deletion
-SPNCRNA.538	SPNCRNA.1501	1098-2471	SPNCRNA.538delta	partial_nucleotide_deletion
-SPNCRNA.539	SPNCRNA.1533	760-966	SPNCRNA.539delta	partial_nucleotide_deletion
+systematic_id	corresponding_systematic_id	Allele description	Allele name	Allele synonym	Allele type
+SPNCRNA.388	SPNCRNA.388	75-1575	SPNCRNA.388delta75-1575		partial_nucleotide_deletion
+SPNCRNA.1341	SPNCRNA.103	9-528	SPNCRNA.1341delta9-528	SPNCRNA.1341delta	partial_nucleotide_deletion
+SPNCRNA.144	SPNCRNA.627	606-995	SPNCRNA.144delta606-995	SPNCRNA.144delta	partial_nucleotide_deletion
+SPNCRNA.145	SPNCRNA.628	732-1573	SPNCRNA.145delta732-1573	SPNCRNA.145delta	partial_nucleotide_deletion
+SPNCRNA.236	SPNCRNA.941	145-922	SPNCRNA.236delta145-922	SPNCRNA.236delta	partial_nucleotide_deletion
+SPNCRNA.248	SPNCRNA.996	(-74)-487	SPNCRNA.248delta(-74)-487	SPNCRNA.248delta	partial_nucleotide_deletion
+SPNCRNA.254	SPNCRNA.1032	(-319)-746	SPNCRNA.254delta(-319)-746	SPNCRNA.254delta	partial_nucleotide_deletion
+SPNCRNA.289	SPNCRNA.1303	93-419	SPNCRNA.289delta93-419	SPNCRNA.289delta	partial_nucleotide_deletion
+SPNCRNA.410	SPNCRNA.1559	365-735	SPNCRNA.410delta365-735	SPNCRNA.410delta	partial_nucleotide_deletion
+SPNCRNA.426	SPNCRNA.1624	15-1422	SPNCRNA.426delta15-1422	SPNCRNA.426delta	partial_nucleotide_deletion
+SPNCRNA.507	SPNCRNA.808	(-7)-150	SPNCRNA.507delta(-7)-150	SPNCRNA.507delta	partial_nucleotide_deletion
+SPNCRNA.515	SPNCRNA.1651	(-9)-95	SPNCRNA.515delta(-9)-95	SPNCRNA.515delta	partial_nucleotide_deletion
+SPNCRNA.538	SPNCRNA.1501	1098-2471	SPNCRNA.538delta1098-2471	SPNCRNA.538delta	partial_nucleotide_deletion
+SPNCRNA.539	SPNCRNA.1533	760-966	SPNCRNA.539delta760-966	SPNCRNA.539delta	partial_nucleotide_deletion

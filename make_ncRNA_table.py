@@ -122,8 +122,11 @@ fixed_coordinates['Allele description'] = fixed_coordinates.apply(format_allele_
 fixed_coordinates['corresponding_systematic_id'] = fixed_coordinates['systematic_id']
 fixed_coordinates['Allele synonym'] = ''
 
-columns2keep = ['systematic_id', 'corresponding_systematic_id', 'Allele description', 'Allele synonym', 'Allele type']
+columns2keep = ['systematic_id', 'corresponding_systematic_id', 'Allele description', 'Allele name', 'Allele synonym', 'Allele type']
 
 fixed = pandas.concat([fixed_coordinates, fixed_synonyms])
 fixed['Allele type'] = 'partial_nucleotide_deletion'
+# We give a name concatenating systematic_id and allele description. We could use the alternative ID but it could be confusing
+fixed.loc[:, 'Allele name'] = fixed.loc[:, 'systematic_id'] + 'delta' + fixed.loc[:, 'Allele description']
+
 fixed[columns2keep].to_csv('results/fixes_alleles.tsv', sep='\t', index=False)

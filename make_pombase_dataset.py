@@ -104,7 +104,7 @@ allele_fixes['Expression'] = 'null'
 
 merged_data = merged_data.merge(allele_fixes, on=['Gene systematic ID', 'Expression'], how='left')
 merged_data.fillna('', inplace=True)
-replacing_cols = ['Allele description', 'Allele synonym', 'Allele type']
+replacing_cols = ['Allele description', 'Allele name', 'Allele synonym','Allele type']
 for col in replacing_cols:
     merged_data[col] = merged_data.apply(lambda r: r[col+'_y'] if r[col+'_y'] else r[col+'_x'], axis=1)
     merged_data.drop(columns=[col+'_y', col+'_x'], inplace=True)
